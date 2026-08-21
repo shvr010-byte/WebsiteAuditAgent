@@ -2,15 +2,20 @@ const { chromium } = require("playwright");
 
 async function testFunctionality(url) {
 
-    const browser = await chromium.launch({
-        headless: true
-    });
-
-    const page = await browser.newPage();
+    let browser = null;
+    let page = null;
 
     const issues = [];
 
     let consoleErrors = 0;
+
+    try {
+
+        browser = await chromium.launch({
+            headless: true
+        });
+
+        page = await browser.newPage();
 
     page.on("console", message => {
 
@@ -37,8 +42,6 @@ async function testFunctionality(url) {
         });
 
     });
-
-    try {
 
         // --------------------------------
         // Load page
@@ -409,6 +412,9 @@ async function testFunctionality(url) {
 
             score: 0,
 
+            error:
+                error.message,
+
             summary: {
 
                 linksChecked: 0,
@@ -449,7 +455,17 @@ async function testFunctionality(url) {
 
     finally {
 
-        await browser.close();
+        if (browser) {
+            try {
+                await browser.close();
+            }
+            catch (error) {
+                console.log(
+                    "Functionality browser cleanup warning:",
+                    error.message
+                );
+            }
+        }
 
     }
 

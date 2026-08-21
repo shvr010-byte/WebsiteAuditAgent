@@ -11,6 +11,13 @@ let browser = null;
 
 async function getBrowser() {
 
+    if (
+        browser &&
+        !browser.isConnected()
+    ) {
+        browser = null;
+    }
+
     if (!browser) {
 
         browser = await chromium.launch({
@@ -24,6 +31,13 @@ async function getBrowser() {
             ]
 
         });
+
+        browser.on(
+            "disconnected",
+            () => {
+                browser = null;
+            }
+        );
 
     }
 
@@ -270,6 +284,10 @@ async function captureWebsite(url) {
 
         catch (error) {
 
+            desktopError =
+                desktopError ||
+                `Screenshot failed: ${error.message}`;
+
             console.log(
                 `Desktop screenshot failed: ${url}`
             );
@@ -465,6 +483,10 @@ async function captureWebsite(url) {
         }
 
         catch (error) {
+
+            mobileError =
+                mobileError ||
+                `Screenshot failed: ${error.message}`;
 
             console.log(
                 `Mobile screenshot failed: ${url}`

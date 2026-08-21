@@ -84,8 +84,22 @@ async function crawlWebsite(
     maxPages = 50
 ) {
 
-    const browser =
-        await chromium.launch({
+    const start =
+        normalizeUrl(startUrl);
+
+
+    if (!start) {
+        return [];
+    }
+
+
+    let browser = null;
+
+
+    try {
+
+        browser =
+            await chromium.launch({
 
             headless: true,
 
@@ -97,9 +111,39 @@ async function crawlWebsite(
 
         });
 
+    }
 
-    const context =
-        await browser.newContext();
+    catch (error) {
+
+        console.log(
+            "Crawler browser launch failed:",
+            error.message
+        );
+
+        return [start];
+
+    }
+
+
+    let context;
+
+    try {
+        context =
+            await browser.newContext();
+    }
+    catch (error) {
+        console.log(
+            "Crawler context creation failed:",
+            error.message
+        );
+
+        try {
+            await browser.close();
+        }
+        catch {}
+
+        return [start];
+    }
 
 
     const visited =
@@ -107,19 +151,6 @@ async function crawlWebsite(
 
     const queued =
         new Set();
-
-
-    const start =
-        normalizeUrl(startUrl);
-
-
-    if (!start) {
-
-        await browser.close();
-
-        return [];
-
-    }
 
 
     const queue = [start];
@@ -468,7 +499,15 @@ async function crawlWebsite(
     }
 
 
-    await browser.close();
+    try {
+        await browser.close();
+    }
+    catch (error) {
+        console.log(
+            "Crawler browser cleanup warning:",
+            error.message
+        );
+    }
 
 
     console.log(

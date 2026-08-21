@@ -2,9 +2,7 @@ const { chromium } = require("playwright");
 
 async function testResponsive(url) {
 
-    const browser = await chromium.launch({
-        headless: true
-    });
+    let browser = null;
 
     const viewports = [
 
@@ -32,7 +30,13 @@ async function testResponsive(url) {
 
     const results = [];
 
+    const testErrors = [];
+
     try {
+
+        browser = await chromium.launch({
+            headless: true
+        });
 
         for (const viewport of viewports) {
 
@@ -252,6 +256,10 @@ async function testResponsive(url) {
 
             catch (error) {
 
+                testErrors.push(
+                    `${viewport.name}: ${error.message}`
+                );
+
                 issues.push({
 
                     title:
@@ -278,7 +286,15 @@ async function testResponsive(url) {
 
             finally {
 
-                await page.close();
+                try {
+                    await page.close();
+                }
+                catch (error) {
+                    console.log(
+                        "Responsive page cleanup warning:",
+                        error.message
+                    );
+                }
 
             }
 
@@ -328,6 +344,13 @@ async function testResponsive(url) {
 
             score,
 
+            ...(testErrors.length > 0
+                ? {
+                    error:
+                        testErrors.join("; ")
+                }
+                : {}),
+
             summary: {
 
                 viewportsTested:
@@ -348,7 +371,17 @@ async function testResponsive(url) {
 
     finally {
 
-        await browser.close();
+        if (browser) {
+            try {
+                await browser.close();
+            }
+            catch (error) {
+                console.log(
+                    "Responsive browser cleanup warning:",
+                    error.message
+                );
+            }
+        }
 
     }
 

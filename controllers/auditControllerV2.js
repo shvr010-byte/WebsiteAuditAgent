@@ -77,6 +77,8 @@ process.on(
 
 function saveAuditBackup(websiteUrl, auditData) {
 
+    let temporaryPath = null;
+
     try {
 
         const safeWebsite =
@@ -105,10 +107,13 @@ function saveAuditBackup(websiteUrl, auditData) {
                 "audit-results.json"
             );
 
+        temporaryPath =
+            `${backupPath}.${process.pid}.${Date.now()}.tmp`;
+
 
         fs.writeFileSync(
 
-            backupPath,
+            temporaryPath,
 
             JSON.stringify(
                 auditData,
@@ -118,6 +123,11 @@ function saveAuditBackup(websiteUrl, auditData) {
 
             "utf8"
 
+        );
+
+        fs.renameSync(
+            temporaryPath,
+            backupPath
         );
 
 
@@ -132,6 +142,19 @@ function saveAuditBackup(websiteUrl, auditData) {
     }
 
     catch (err) {
+
+        try {
+            if (
+                temporaryPath &&
+                fs.existsSync(temporaryPath)
+            ) {
+                fs.rmSync(
+                    temporaryPath,
+                    { force: true }
+                );
+            }
+        }
+        catch {}
 
         console.error(
             "Audit backup failed:",
@@ -151,8 +174,12 @@ function saveAuditBackup(websiteUrl, auditData) {
 
 function buildAuditData(
     websiteUrl,
-    allAudits
+    allAudits,
+    progress = null
 ) {
+
+    const now =
+        new Date().toISOString();
 
     return {
 
@@ -162,16 +189,139 @@ function buildAuditData(
                 websiteUrl,
 
             totalPages:
+                progress?.totalPages ??
                 allAudits.length,
 
             completedAt:
-                new Date().toISOString()
+                now,
+
+            ...(progress
+                ? {
+                    progress: {
+                        ...progress,
+                        lastSavedTime: now
+                    }
+                }
+                : {})
 
         },
 
         pages:
             allAudits
 
+    };
+
+}
+
+
+function errorMessage(error) {
+
+    return error?.message ||
+        String(error || "Unknown error");
+
+}
+
+
+function addPageError(pageAudit, module, error) {
+
+    if (!Array.isArray(pageAudit.errors)) {
+        pageAudit.errors = [];
+    }
+
+    const message = errorMessage(error);
+
+    if (
+        !pageAudit.errors.some(
+            item =>
+                item.module === module &&
+                item.message === message
+        )
+    ) {
+        pageAudit.errors.push({ module, message });
+    }
+
+}
+
+
+async function runPageModule(
+    pageAudit,
+    module,
+    operation,
+    fallback = null,
+    timeoutMs = 120000
+) {
+
+    let timeout;
+
+    try {
+        return await Promise.race([
+            operation(),
+            new Promise((_, reject) => {
+                timeout = setTimeout(
+                    () => reject(
+                        new Error(
+                            `${module} timed out after ${timeoutMs}ms`
+                        )
+                    ),
+                    timeoutMs
+                );
+            })
+        ]);
+    }
+    catch (error) {
+        console.error(
+            `${module} failed for ${pageAudit.url}:`,
+            errorMessage(error)
+        );
+        addPageError(pageAudit, module, error);
+        return fallback;
+    }
+    finally {
+        clearTimeout(timeout);
+    }
+
+}
+
+
+function buildProgressState({
+    pages,
+    allAudits,
+    currentPage = null,
+    auditStartTime,
+    status = "running"
+}) {
+
+    const completedUrls =
+        new Set(
+            allAudits
+                .map(page => page?.url)
+                .filter(Boolean)
+        );
+
+    const failedPages =
+        allAudits
+            .filter(page =>
+                page?.status === "failed" ||
+                page?.error ||
+                (
+                    Array.isArray(page?.errors) &&
+                    page.errors.length > 0
+                )
+            )
+            .map(page => page.url)
+            .filter(Boolean);
+
+    return {
+        status,
+        pages,
+        totalPages: pages.length,
+        completedPages: completedUrls.size,
+        completedPageUrls: [...completedUrls],
+        currentPage,
+        failedPages,
+        remainingPages:
+            pages.filter(page => !completedUrls.has(page)),
+        auditStartTime
     };
 
 }
@@ -187,7 +337,8 @@ async function auditWebsite(req, res) {
 
         const {
     url,
-    startPage = 1
+    startPage = 1,
+    resume = false
 } = req.body;
 
 
@@ -223,7 +374,7 @@ const screenshotsDir =
 // Only clear screenshots for a NEW audit.
 // When resuming, keep existing screenshots.
 
-if (startPage <= 1) {
+if (!resume && startPage <= 1) {
 
     if (
         fs.existsSync(
@@ -256,7 +407,7 @@ fs.mkdirSync(
         // Crawl Website
         // ------------------------------------------------
 
-        const pages =
+        let pages =
             await crawlWebsite(url);
 
 
@@ -267,6 +418,9 @@ fs.mkdirSync(
 
       let allAudits = [];
 
+let auditStartTime =
+    new Date().toISOString();
+
 const uiuxCandidates = [];
 
 
@@ -274,7 +428,7 @@ const uiuxCandidates = [];
 // RESUME EXISTING AUDIT
 // ------------------------------------------------
 
-if (startPage > 1) {
+if (resume || startPage > 1) {
 
     const safeWebsite =
         url
@@ -320,6 +474,26 @@ if (startPage > 1) {
     allAudits =
         previousAudit.pages || [];
 
+    auditStartTime =
+        previousAudit.metadata?.progress
+            ?.auditStartTime ||
+        auditStartTime;
+
+    const savedPages =
+        previousAudit.metadata?.progress
+            ?.pages;
+
+    if (Array.isArray(savedPages)) {
+
+        pages = [
+            ...savedPages,
+            ...pages.filter(
+                page => !savedPages.includes(page)
+            )
+        ];
+
+    }
+
 
     console.log(
         `Existing pages loaded: ${allAudits.length}`
@@ -327,6 +501,7 @@ if (startPage > 1) {
 
 
     if (
+        !resume &&
         allAudits.length <
         startPage - 1
     ) {
@@ -344,8 +519,15 @@ if (startPage > 1) {
         // Process Every Page
         // ------------------------------------------------
 
+       const completedPageUrls =
+        new Set(
+            allAudits
+                .map(page => page?.url)
+                .filter(Boolean)
+        );
+
        for (
-    let index = startPage - 1;
+    let index = resume ? 0 : startPage - 1;
     index < pages.length;
     index++
 ) {
@@ -353,22 +535,72 @@ if (startPage > 1) {
             const pageUrl =
                 pages[index];
 
+            if (completedPageUrls.has(pageUrl)) {
+                console.log(
+                    `Skipping completed page: ${pageUrl}`
+                );
+                continue;
+            }
+
 
             console.log(
                 `[${index + 1}/${pages.length}] ${pageUrl}`
             );
 
+            saveAuditBackup(
+                url,
+                buildAuditData(
+                    url,
+                    allAudits,
+                    buildProgressState({
+                        pages,
+                        allAudits,
+                        currentPage: pageUrl,
+                        auditStartTime
+                    })
+                )
+            );
+
 
             try {
+
+                const pageAudit = {
+                    url: pageUrl,
+                    errors: []
+                };
 
                 // ==================================================
                 // CAPTURE WEBSITE
                 // ==================================================
 
                 const playwright =
-                    await captureWebsite(
-                        pageUrl
+                    await runPageModule(
+                        pageAudit,
+                        "playwright",
+                        () => captureWebsite(pageUrl),
+                        {
+                            desktopScreenshot: null,
+                            mobileScreenshot: null,
+                            consoleErrors: [],
+                            networkErrors: []
+                        }
                     );
+
+                if (playwright?.desktopError) {
+                    addPageError(
+                        pageAudit,
+                        "desktop",
+                        playwright.desktopError
+                    );
+                }
+
+                if (playwright?.mobileError) {
+                    addPageError(
+                        pageAudit,
+                        "mobile",
+                        playwright.mobileError
+                    );
+                }
 
 
                 // ==================================================
@@ -405,6 +637,12 @@ if (startPage > 1) {
                     console.log(
                         "Image optimization failed:",
                         err.message
+                    );
+
+                    addPageError(
+                        pageAudit,
+                        "imageOptimization",
+                        err
                     );
 
                 }
@@ -444,43 +682,69 @@ if (startPage > 1) {
                     // 1. Lighthouse
                     // ------------------------------------------
 
-                    getLighthouseResults(
-                        pageUrl
+                    runPageModule(
+                        pageAudit,
+                        "lighthouse",
+                        () => getLighthouseResults(pageUrl)
                     ),
 
                     // ------------------------------------------
                     // 2. Accessibility
                     // ------------------------------------------
 
-                    runAccessibilityAudit(
-                        pageUrl
+                    runPageModule(
+                        pageAudit,
+                        "accessibility",
+                        () => runAccessibilityAudit(pageUrl)
                     ),
 
                     // ------------------------------------------
                     // 3. Broken Links
                     // ------------------------------------------
 
-                    checkBrokenLinks(
-                        pageUrl
+                    runPageModule(
+                        pageAudit,
+                        "links",
+                        () => checkBrokenLinks(pageUrl)
                     ),
 
                     // ------------------------------------------
                     // 4. Functionality
                     // ------------------------------------------
 
-                    testFunctionality(
-                        pageUrl
+                    runPageModule(
+                        pageAudit,
+                        "functionality",
+                        () => testFunctionality(pageUrl)
                     ),
 
                     // ------------------------------------------
                     // 5. Responsive
                     // ------------------------------------------
 
-                    testResponsive(
-                        pageUrl
+                    runPageModule(
+                        pageAudit,
+                        "responsive",
+                        () => testResponsive(pageUrl)
                     )
 
                 ]);
+
+                for (const [module, result] of [
+                    ["lighthouse", lighthouse],
+                    ["accessibility", accessibility],
+                    ["links", links],
+                    ["functionality", functionality],
+                    ["responsive", responsive]
+                ]) {
+                    if (result?.error) {
+                        addPageError(
+                            pageAudit,
+                            module,
+                            result.error
+                        );
+                    }
+                }
 
 
                 // ==================================================
@@ -548,10 +812,7 @@ else {
                 // STORE PAGE AUDIT
                 // ==================================================
 
-                allAudits.push({
-
-                    url:
-                        pageUrl,
+                Object.assign(pageAudit, {
 
                     playwright,
 
@@ -565,9 +826,18 @@ else {
 
                     responsive,
 
-                    uiux
+                    uiux,
+
+                    status:
+                        pageAudit.errors.length > 0
+                            ? "completedWithErrors"
+                            : "completed"
 
                 });
+
+                allAudits.push(pageAudit);
+
+                completedPageUrls.add(pageUrl);
 
 
                 // ==================================================
@@ -577,7 +847,12 @@ else {
                 const progressAudit =
                     buildAuditData(
                         url,
-                        allAudits
+                        allAudits,
+                        buildProgressState({
+                            pages,
+                            allAudits,
+                            auditStartTime
+                        })
                     );
 
 
@@ -606,15 +881,28 @@ else {
                 // Save failed page instead of losing progress
                 // --------------------------------------------
 
-                allAudits.push({
+                const failedPage = {
 
                     url:
                         pageUrl,
 
                     error:
-                        err.message
+                        err.message,
 
-                });
+                    errors: [
+                        {
+                            module: "page",
+                            message: err.message
+                        }
+                    ],
+
+                    status: "failed"
+
+                };
+
+                allAudits.push(failedPage);
+
+                completedPageUrls.add(pageUrl);
 
 
                 // --------------------------------------------
@@ -624,7 +912,12 @@ else {
                 const errorProgressAudit =
                     buildAuditData(
                         url,
-                        allAudits
+                        allAudits,
+                        buildProgressState({
+                            pages,
+                            allAudits,
+                            auditStartTime
+                        })
                     );
 
 
@@ -646,6 +939,36 @@ else {
         // ====================================================
         // BATCH GEMINI UI/UX
         // ====================================================
+
+        const queuedUIUXPages =
+            new Set(
+                uiuxCandidates.map(item => item.page)
+            );
+
+        for (
+            let auditIndex = 0;
+            auditIndex < allAudits.length;
+            auditIndex++
+        ) {
+
+            const savedAudit = allAudits[auditIndex];
+
+            if (
+                savedAudit?.url &&
+                savedAudit.uiux == null &&
+                savedAudit.playwright?.desktopScreenshot &&
+                shouldAnalyzeUIUX(savedAudit.url) &&
+                !queuedUIUXPages.has(savedAudit.url)
+            ) {
+                uiuxCandidates.push({
+                    page: savedAudit.url,
+                    image: savedAudit.playwright.desktopScreenshot,
+                    screenshot: savedAudit.playwright.desktopScreenshot,
+                    auditIndex
+                });
+            }
+
+        }
 
         console.log(
             `Running Batch UI/UX on ${uiuxCandidates.length} pages...`
@@ -701,6 +1024,19 @@ else {
                 batchResults =
                     [];
 
+                for (const candidate of batch) {
+                    const failedAudit =
+                        allAudits[candidate.auditIndex];
+
+                    if (failedAudit) {
+                        addPageError(
+                            failedAudit,
+                            "uiux",
+                            err
+                        );
+                    }
+                }
+
             }
 
 
@@ -737,6 +1073,14 @@ else {
 
                 audit.uiux =
                     result;
+
+                if (result.error) {
+                    addPageError(
+                        audit,
+                        "uiux",
+                        result.error
+                    );
+                }
 
 
                 // ==================================================
@@ -835,7 +1179,12 @@ else {
                 const uiuxProgressAudit =
                     buildAuditData(
                         url,
-                        allAudits
+                        allAudits,
+                        buildProgressState({
+                            pages,
+                            allAudits,
+                            auditStartTime
+                        })
                     );
 
 
@@ -853,7 +1202,15 @@ else {
         // CLOSE PLAYWRIGHT BROWSER
         // ====================================================
 
-        await closeBrowser();
+        try {
+            await closeBrowser();
+        }
+        catch (error) {
+            console.log(
+                "Playwright cleanup warning:",
+                errorMessage(error)
+            );
+        }
 
 
         // ====================================================
@@ -863,7 +1220,13 @@ else {
         const audit =
             buildAuditData(
                 url,
-                allAudits
+                allAudits,
+                buildProgressState({
+                    pages,
+                    allAudits,
+                    auditStartTime,
+                    status: "completed"
+                })
             );
 
 
