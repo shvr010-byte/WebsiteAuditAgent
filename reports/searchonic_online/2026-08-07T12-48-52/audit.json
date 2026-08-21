@@ -1,0 +1,2144 @@
+{
+  "metadata": {
+    "website": "https://searchonic.online",
+    "totalPages": 9,
+    "completedAt": "2026-08-07T12:48:52.166Z"
+  },
+  "pages": [
+    {
+      "url": "https://searchonic.online/",
+      "playwright": {
+        "title": "Home – Evoque",
+        "finalUrl": "https://searchonic.online/",
+        "loadTime": 2481,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_-mobile.png",
+        "consoleErrors": [
+          "Refused to apply style from 'https://searchonic.online/css/bootstrap.min.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/fontawesome.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/flaticon.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/swiper.min.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/pbminfotech-base-icons.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/themify-icons.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/magnific-popup.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/aos.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/shortcode.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/base.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/responsive.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/custom.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/js/jquery.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/popper.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/js/bootstrap.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/js/jquery.waypoints.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/jquery.appear.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/numinate.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/swiper.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/jquery.magnific-popup.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/circle-progress.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/jquery.countdown.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/aos.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/js/gsap.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/js/ScrollTrigger.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/SplitText.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/magnetic.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/morphext.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/js/popper.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/gsap-animation.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/isotope.pkgd.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/scripts.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/cdn-cgi/challenge-platform/h/b/scripts/jsd/0b8fb825cb67/maind41d.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/images/commercial.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/restaurant.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/residential.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/evoque.png",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/office.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/popper.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/terrace-walkthrough.mp4?autoplay=1&mute=1",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/numinate.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.appear.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/bootstrap.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.waypoints.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/swiper.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.magnific-popup.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/circle-progress.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.countdown.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/aos.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/final-walkthrough.mp4?autoplay=1&mute=1",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/final-walkthrough1.mp4?autoplay=1&mute=1",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/home-space.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/ih-single-img-01.png",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/hall-project.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/dinning-project.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/office-project.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/portfolio/portfolio-03.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/bathroom-project.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-01.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/badroom-project.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-03.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-02.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-01.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-04.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-02.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-03.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/evoque_logo.png",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-04.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/home-banner2.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/home-banner1.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/home-banner3.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-04b.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/gsap.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/ScrollTrigger.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/magnetic.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/scripts.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/gsap-animation.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/SplitText.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/isotope.pkgd.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/morphext.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/popper.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/cdn-cgi/rum?",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/cdn-cgi/challenge-platform/h/b/scripts/jsd/0b8fb825cb67/maind41d.js",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 94,
+        "accessibility": 63,
+        "seo": 54,
+        "bestPractices": 96,
+        "metrics": {
+          "firstContentfulPaint": "2.4 s",
+          "largestContentfulPaint": "2.4 s",
+          "speedIndex": "2.7 s",
+          "totalBlockingTime": "0 ms",
+          "cumulativeLayoutShift": "0"
+        },
+        "opportunities": {
+          "type": "debugdata",
+          "items": [
+            {
+              "numRequests": 71,
+              "numScripts": 23,
+              "numStylesheets": 14,
+              "numFonts": 2,
+              "numTasks": 1040,
+              "numTasksOver10ms": 4,
+              "numTasksOver25ms": 1,
+              "numTasksOver50ms": 1,
+              "numTasksOver100ms": 1,
+              "numTasksOver500ms": 0,
+              "rtt": 0,
+              "throughput": 21550268.67184908,
+              "maxRtt": 51.752,
+              "maxServerLatency": 514.0274999999999,
+              "totalByteWeight": 340160,
+              "totalTaskTime": 272.5379999999988,
+              "mainDocumentTransferSize": 9679
+            }
+          ]
+        }
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/",
+        "title": "Home – Evoque",
+        "violations": 7,
+        "passes": 29,
+        "incomplete": 1,
+        "issues": [
+          {
+            "impact": "critical",
+            "rule": "button-name",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+            "affectedElements": 2,
+            "nodes": [
+              {
+                "html": "<button class=\"navbar-toggler\" type=\"button\">\n\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"pbmit-base-icon-menu-1\"></i>\n\n\t\t\t\t\t\t\t\t\t\t</button>",
+                "target": [
+                  ".navbar-toggler"
+                ]
+              },
+              {
+                "html": "<button type=\"submit\"></button>",
+                "target": [
+                  "button[type=\"submit\"]"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "serious",
+            "rule": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+            "affectedElements": 35,
+            "nodes": [
+              {
+                "html": "<h4 class=\"pbmit-subtitle\">Our Experience</h4>",
+                "target": [
+                  ".mb-5 > h4"
+                ]
+              },
+              {
+                "html": "<h2 class=\"pbmit-title\">\n\t\t\t\t\t\t\t\tExperience Luxury Interior Design<br> Through Our Creative Vision\n\t\t\t\t\t\t\t</h2>",
+                "target": [
+                  ".mb-5 > .pbmit-title"
+                ]
+              },
+              {
+                "html": "<h4 class=\"pbmit-subtitle\">Process</h4>",
+                "target": [
+                  ".align-items-center.row > .col-xl-4.col-md-12 > .animation-style2.pbmit-heading-subheading > h4"
+                ]
+              },
+              {
+                "html": "<h2 class=\"pbmit-title\">Our Latest Project</h2>",
+                "target": [
+                  ".align-items-center.row > .col-xl-4.col-md-12 > .animation-style2.pbmit-heading-subheading > .pbmit-title"
+                ]
+              },
+              {
+                "html": "<div class=\"pbmit-port-cat\">\n\n\t\t\t\t\t\t\t\t\t\t\tLiving Room\n\n\t\t\t\t\t\t\t\t\t\t</div>",
+                "target": [
+                  ".bedroom.pbmit-portfolio-style-3.col-md-4:nth-child(1) > .pbminfotech-post-content > .pbminfotech-box-content > .pbminfotech-titlebox > .pbmit-port-cat"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "serious",
+            "rule": "frame-title",
+            "description": "Ensure <iframe> and <frame> elements have an accessible name",
+            "help": "Frames must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+            "affectedElements": 3,
+            "nodes": [
+              {
+                "html": "<iframe src=\"images/terrace-walkthrough.mp4?autoplay=1&amp;mute=1\" allowfullscreen=\"\"></iframe>",
+                "target": [
+                  ".swiper-slide:nth-child(1) > .video-wrapper > iframe[allowfullscreen=\"\"]"
+                ]
+              },
+              {
+                "html": "<iframe src=\"images/final-walkthrough.mp4?autoplay=1&amp;mute=1\" allowfullscreen=\"\"></iframe>",
+                "target": [
+                  ".swiper-slide:nth-child(2) > .video-wrapper > iframe[allowfullscreen=\"\"]"
+                ]
+              },
+              {
+                "html": "<iframe src=\"images/final-walkthrough1.mp4?autoplay=1&amp;mute=1\" allowfullscreen=\"\"></iframe>",
+                "target": [
+                  ".swiper-slide:nth-child(3) > .video-wrapper > iframe[allowfullscreen=\"\"]"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "heading-order",
+            "description": "Ensure the order of headings is semantically correct",
+            "help": "Heading levels should only increase by one",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/heading-order?application=playwright",
+            "affectedElements": 7,
+            "nodes": [
+              {
+                "html": "<h5 class=\"pbmit-sub-title transform-top transform-delay-1\">Design\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tBeyond Walls</h5>",
+                "target": [
+                  ".swiper-slide:nth-child(1) > .pbmit-slider-item > .container > .text-center.row > .col-md-12 > .pbmit-slider-content > h5"
+                ]
+              },
+              {
+                "html": "<h5 class=\"pbmit-sub-title transform-top transform-delay-1\">Crafting\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tModern Living</h5>",
+                "target": [
+                  ".swiper-slide:nth-child(2) > .pbmit-slider-item > .container > .text-center.row > .col-md-12 > .pbmit-slider-content > h5"
+                ]
+              },
+              {
+                "html": "<h5 class=\"pbmit-sub-title transform-top transform-delay-1\">Inspired By\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tLifestyle</h5>",
+                "target": [
+                  ".swiper-slide:nth-child(3) > .pbmit-slider-item > .container > .text-center.row > .col-md-12 > .pbmit-slider-content > h5"
+                ]
+              },
+              {
+                "html": "<h4 class=\"pbmit-subtitle\">Who We Are</h4>",
+                "target": [
+                  ".about-one-rightbox > .animation-style2.pbmit-heading-subheading > h4"
+                ]
+              },
+              {
+                "html": "<h4 class=\"pbmit-subtitle\" style=\"color: #000000e0; \">What we do</h4>",
+                "target": [
+                  ".animation-style2.pbmit-heading-subheading.text-center > h4"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 4,
+            "nodes": [
+              {
+                "html": "<html class=\"no-js\" lang=\"en\">",
+                "target": [
+                  "html"
+                ]
+              },
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  ".swiper-slide:nth-child(1) > .video-wrapper > iframe[allowfullscreen=\"\"]",
+                  "html"
+                ]
+              },
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  ".swiper-slide:nth-child(2) > .video-wrapper > iframe[allowfullscreen=\"\"]",
+                  "html"
+                ]
+              },
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  ".swiper-slide:nth-child(3) > .video-wrapper > iframe[allowfullscreen=\"\"]",
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "serious",
+            "rule": "link-name",
+            "description": "Ensure links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+            "affectedElements": 5,
+            "nodes": [
+              {
+                "html": "<a class=\"pbmit-blog-btn\" href=\"blogs.html\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"pbmit-button-icon\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t<i class=\"pbmit-base-icon-pbmit-up-arrow\"></i>\n\n\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\n\t\t\t\t\t\t\t\t\t\t\t</a>",
+                "target": [
+                  ".pbmit-blog-btn"
+                ]
+              },
+              {
+                "html": "<a href=\"#\"><i class=\"fab fa-facebook-f\"></i></a>",
+                "target": [
+                  ".footer-social > a[href=\"#\"]:nth-child(1)"
+                ]
+              },
+              {
+                "html": "<a href=\"#\"><i class=\"fab fa-instagram\"></i></a>",
+                "target": [
+                  "a[href=\"#\"]:nth-child(2)"
+                ]
+              },
+              {
+                "html": "<a href=\"#\"><i class=\"fab fa-linkedin-in\"></i></a>",
+                "target": [
+                  "a[href=\"#\"]:nth-child(3)"
+                ]
+              },
+              {
+                "html": "<a href=\"#\"><i class=\"fab fa-youtube\"></i></a>",
+                "target": [
+                  "a[href=\"#\"]:nth-child(4)"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 12,
+            "nodes": [
+              {
+                "html": "<div class=\"pbmit-ihbox-contents\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t<h2 class=\"pbmit-element-title\">Best Awarded <br>Company </h2>\n\n\t\t\t\t\t\t\t\t\t\t\t</div>",
+                "target": [
+                  ".pbmit-ihbox-headingicon > .pbmit-ihbox-contents"
+                ]
+              },
+              {
+                "html": "<div class=\"col-md-12 col-xl-6\">",
+                "target": [
+                  ".g-0.row > .col-xl-6.col-md-12:nth-child(2)"
+                ]
+              },
+              {
+                "html": "<section class=\"pbmit-extend-animation service-one pbmit-bg-color-secondary\">",
+                "target": [
+                  ".pbmit-extend-animation"
+                ]
+              },
+              {
+                "html": "<div class=\"pbmit-heading-subheading animation-style2\">\n\t\t\t\t\t\t<div class=\"text-center mb-5\">\n\t\t\t\t\t\t\t<h4 class=\"pbmit-subtitle\">Our Experience</h4>\n\n\t\t\t\t\t\t\t<h2 class=\"pbmit-title\">\n\t\t\t\t\t\t\t\tExperience Luxury Interior Design<br> Through Our Creative Vision\n\t\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>",
+                "target": [
+                  ".container > .animation-style2.pbmit-heading-subheading"
+                ]
+              },
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  ".swiper-slide:nth-child(1) > .video-wrapper > iframe[allowfullscreen=\"\"]",
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 68,
+        "broken": 68,
+        "redirects": 0,
+        "brokenLinks": [
+          {
+            "url": "https://searchonic.online/images/favicon-evoque.png",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/bootstrap.min.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/fontawesome.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/flaticon.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/pbminfotech-base-icons.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/themify-icons.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/swiper.min.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/magnific-popup.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/aos.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/shortcode.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/base.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/style.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/responsive.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/custom.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/evoque.png",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/about-us.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/home-interior-service.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/office-interior-service.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/restaurant-interior-service.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/commercial-interior-service.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/sample-house-interior.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/portfolio.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/blogs.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/contact-us.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/residential.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/commercial.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/restaurant.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/office.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/home-space.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/terrace-walkthrough.mp4?autoplay=1&mute=1",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/final-walkthrough.mp4?autoplay=1&mute=1",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/final-walkthrough1.mp4?autoplay=1&mute=1",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/ih-single-img-01.png",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/hall-project.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/dinning-project.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/portfolio/portfolio-03.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/office-project.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/bathroom-project.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/badroom-project.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-01.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-02.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-03.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-04.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-01.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-02.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-03.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-04.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/evoque_logo.png",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/popper.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/bootstrap.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.waypoints.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.appear.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/numinate.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/swiper.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.magnific-popup.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/circle-progress.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.countdown.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/aos.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/gsap.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/ScrollTrigger.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/SplitText.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/magnetic.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/morphext.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/gsap-animation.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/isotope.pkgd.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/scripts.js",
+            "reason": "HTTP_404",
+            "status": 404
+          }
+        ],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "Homepage",
+        "strengths": [
+          "Comprehensive site structure and content outlines visible in document object model"
+        ],
+        "issues": [
+          {
+            "id": "UI-001",
+            "severity": "Critical",
+            "issue": "Missing or Broken CSS Stylesheets",
+            "description": "The page renders as raw unstyled HTML with broken layouts, plain blue links, unformatted text hierarchy, and default bullet lists.",
+            "recommendation": "Fix stylesheet asset paths and ensure CSS files load correctly across all environments.",
+            "target": {
+              "text": "Spaces That Define Comfort & Elegance",
+              "tag": "h1",
+              "selectorHint": "body"
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_-UI-001.png"
+          },
+          {
+            "id": "UI-002",
+            "severity": "Critical",
+            "issue": "Broken Image Assets and Placeholder Graphics",
+            "description": "Multiple key media elements, project showcases, and feature images fail to load, displaying broken alt text and missing media boxes.",
+            "recommendation": "Update image asset URLs, optimize image paths, and provide appropriate fallback placeholders.",
+            "target": {
+              "text": "service-01 Kitchen",
+              "tag": "img",
+              "selectorHint": "img"
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_-UI-002.png"
+          },
+          {
+            "id": "UI-003",
+            "severity": "Critical",
+            "issue": "Unreadable Low Contrast Dark Sections",
+            "description": "The 'Our Latest Project' and 'Latest posts & articles' sections feature dark grey body text on a black background, failing WCAG color contrast standards completely.",
+            "recommendation": "Use high-contrast white or light-grey text colors on dark section backgrounds.",
+            "target": {
+              "text": "Our Latest Project",
+              "tag": "h2",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_-UI-003.png"
+          },
+          {
+            "id": "UI-004",
+            "severity": "High",
+            "issue": "Unformatted Navigation Bar",
+            "description": "The header navigation renders as an unstyled unordered list, causing poor user navigation and broken visual structure.",
+            "recommendation": "Apply flexbox/grid layout and CSS navigation styles to format links horizontally in a header header container.",
+            "target": {
+              "text": "Home",
+              "tag": "a",
+              "selectorHint": "ul"
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_-UI-004.png"
+          },
+          {
+            "id": "UI-005",
+            "severity": "Medium",
+            "issue": "Visible Dummy Placeholder Copy",
+            "description": "The 'Why choose us' section contains generic Lorem Ipsum placeholder text ('There are many variations of passages...').",
+            "recommendation": "Replace all dummy filler copy with actual value propositions for the business.",
+            "target": {
+              "text": "There are many variations of passages of form, by injected humour, or randomised words which don't look even.",
+              "tag": "p",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_-UI-005.png"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://searchonic.online/about-us.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/about-us.html",
+        "loadTime": 1339,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_about-us.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_about-us.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/about-us.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/about-us.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "About Us",
+        "strengths": [
+          "Provides standard HTTP 404 error code indicator"
+        ],
+        "issues": [
+          {
+            "id": "UI-006",
+            "severity": "Critical",
+            "issue": "404 Page Not Found Error",
+            "description": "Navigating to the About Us page returns a server 404 error instead of displaying page content.",
+            "recommendation": "Verify route configuration and upload the missing about-us.html file to the server root.",
+            "target": {
+              "text": "404 Not Found",
+              "tag": "h1",
+              "selectorHint": "h1"
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_about_us_html-UI-006.png"
+          },
+          {
+            "id": "UI-007",
+            "severity": "High",
+            "issue": "Missing Custom Error Page and Navigation",
+            "description": "The page displays a blank default web server error screen without header navigation, footer, or link to return home.",
+            "recommendation": "Design a branded 404 error page with global navigation links and a search bar to preserve user retention.",
+            "target": {
+              "text": "The resource requested could not be found on this server!",
+              "tag": "p",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_about_us_html-UI-007.png"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://searchonic.online/home-interior-service.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/home-interior-service.html",
+        "loadTime": 1323,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_home-interior-service.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_home-interior-service.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/home-interior-service.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/home-interior-service.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "Home Interior Service",
+        "strengths": [
+          "Displays explicit server error message"
+        ],
+        "issues": [
+          {
+            "id": "UI-008",
+            "severity": "Critical",
+            "issue": "404 Page Not Found Error",
+            "description": "The Home Interior Service landing page is missing and returns a 404 server error page.",
+            "recommendation": "Create the home-interior-service.html template and link correct destination paths.",
+            "target": {
+              "text": "404 Not Found",
+              "tag": "h1",
+              "selectorHint": "h1"
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_home_interior_service_html-UI-008.png"
+          },
+          {
+            "id": "UI-009",
+            "severity": "High",
+            "issue": "Lack of Recovery CTA or Navigation Options",
+            "description": "Users landing on this page hit a dead end without any brand styling, navigation bar, or call to action.",
+            "recommendation": "Implement a custom 404 layout including global navigation, contact info, and home page CTA button.",
+            "target": {
+              "text": "The resource requested could not be found on this server!",
+              "tag": "p",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_home_interior_service_html-UI-009.png"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://searchonic.online/office-interior-service.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/office-interior-service.html",
+        "loadTime": 1294,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_office-interior-service.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_office-interior-service.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/office-interior-service.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/office-interior-service.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "Office Interior Service",
+        "strengths": [
+          "High visual contrast between text and white background",
+          "Clean, unlettered minimalist layout"
+        ],
+        "issues": [
+          {
+            "id": "UI-001",
+            "severity": "Critical",
+            "issue": "Page returns a 404 Not Found error",
+            "description": "The target page fails to load and displays a default HTTP 404 error screen, completely blocking user access to content.",
+            "recommendation": "Publish the page content or set up a 301 redirect to an active page.",
+            "target": {
+              "text": "404",
+              "tag": "h1",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_office_interior_service_html-UI-001.png"
+          },
+          {
+            "id": "UI-002",
+            "severity": "High",
+            "issue": "Missing site navigation and recovery options",
+            "description": "There is no header, navigation bar, or 'Return to Homepage' CTA button to keep users on the site.",
+            "recommendation": "Design a custom branded 404 page with persistent global navigation and primary recovery buttons.",
+            "target": {
+              "text": "",
+              "tag": "",
+              "selectorHint": ""
+            }
+          },
+          {
+            "id": "UI-003",
+            "severity": "Medium",
+            "issue": "Lack of brand identification and trust signals",
+            "description": "The screen shows a generic web server error message without logos, contact info, or design branding.",
+            "recommendation": "Apply company branding, company logo, and customer support links to maintain user trust.",
+            "target": {
+              "text": "Not Found",
+              "tag": "",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_office_interior_service_html-UI-003.png"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://searchonic.online/restaurant-interior-service.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/restaurant-interior-service.html",
+        "loadTime": 1312,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_restaurant-interior-service.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_restaurant-interior-service.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/restaurant-interior-service.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/restaurant-interior-service.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "Restaurant Interior Service",
+        "strengths": [
+          "Clear visual hierarchy of error text elements",
+          "Legible typography with adequate color contrast"
+        ],
+        "issues": [
+          {
+            "id": "UI-001",
+            "severity": "Critical",
+            "issue": "Broken link / 404 HTTP Error",
+            "description": "The requested restaurant interior service URL leads to a standard server error page.",
+            "recommendation": "Restore the page content or configure a proper redirect to an active restaurant services page.",
+            "target": {
+              "text": "404",
+              "tag": "h1",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_restaurant_interior_service_html-UI-001.png"
+          },
+          {
+            "id": "UI-002",
+            "severity": "High",
+            "issue": "Absence of call-to-action or navigation controls",
+            "description": "Users reaching this page are stranded with no way to navigate back to the main website.",
+            "recommendation": "Add a primary CTA button such as 'Back to Home' along with the main header menu.",
+            "target": {
+              "text": "",
+              "tag": "",
+              "selectorHint": ""
+            }
+          },
+          {
+            "id": "UI-003",
+            "severity": "Medium",
+            "issue": "Unbranded error message",
+            "description": "A raw server error message harms user experience and damages brand credibility.",
+            "recommendation": "Replace default server error pages with a helpful, custom-designed 404 experience.",
+            "target": {
+              "text": "The resource requested could not be found on this server!",
+              "tag": "p",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_restaurant_interior_service_html-UI-003.png"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://searchonic.online/commercial-interior-service.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/commercial-interior-service.html",
+        "loadTime": 1345,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_commercial-interior-service.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_commercial-interior-service.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/commercial-interior-service.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/commercial-interior-service.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "Commercial Interior Service",
+        "strengths": [
+          "High text readability against plain background",
+          "Symmetrical center alignment"
+        ],
+        "issues": [
+          {
+            "id": "UI-001",
+            "severity": "Critical",
+            "issue": "Resource not found (404 Error)",
+            "description": "The commercial interior service page cannot be found on the server.",
+            "recommendation": "Ensure the resource exists at this URL or redirect users to a relevant active page.",
+            "target": {
+              "text": "404",
+              "tag": "h1",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_commercial_interior_service_html-UI-001.png"
+          },
+          {
+            "id": "UI-002",
+            "severity": "High",
+            "issue": "Missing website header and footer navigation",
+            "description": "The page displays no header, footer, or search bar, offering zero path forward for visitors.",
+            "recommendation": "Integrate the standard site template including header navigation and search functionality.",
+            "target": {
+              "text": "",
+              "tag": "",
+              "selectorHint": ""
+            }
+          },
+          {
+            "id": "UI-003",
+            "severity": "Medium",
+            "issue": "Lack of visual branding and assistance",
+            "description": "Generic system message provides no company context or alternative contact options.",
+            "recommendation": "Add brand styling, helpful contact details, and links to popular service pages.",
+            "target": {
+              "text": "Not Found",
+              "tag": "",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_commercial_interior_service_html-UI-003.png"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://searchonic.online/sample-house-interior.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/sample-house-interior.html",
+        "loadTime": 1359,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_sample-house-interior.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_sample-house-interior.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/sample-house-interior.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/sample-house-interior.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "Sample House Interior",
+        "strengths": [
+          "High color contrast between dark text and white background provides clear visual clarity."
+        ],
+        "issues": [
+          {
+            "id": "UI-001",
+            "severity": "Critical",
+            "issue": "Broken Page Link (HTTP 404 Error)",
+            "description": "The requested sample house interior page cannot be found on the server, resulting in a dead end.",
+            "recommendation": "Publish the target page content or configure a 301 redirect to an active URL.",
+            "target": {
+              "text": "404",
+              "tag": "h1",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_sample_house_interior_html-UI-001.png"
+          },
+          {
+            "id": "UI-002",
+            "severity": "High",
+            "issue": "Missing Site Navigation and Header",
+            "description": "No website header, logo, or navigation links are present to allow users to navigate away from the error.",
+            "recommendation": "Incorporate global website header and footer templates into the error page layout.",
+            "target": {
+              "text": "",
+              "tag": "",
+              "selectorHint": ""
+            }
+          },
+          {
+            "id": "UI-003",
+            "severity": "High",
+            "issue": "Absence of Primary Call-to-Action",
+            "description": "There is no interactive button or link guiding the user back to the homepage or content catalog.",
+            "recommendation": "Add a prominent CTA button labeled 'Back to Home' or 'Explore Interior Samples'.",
+            "target": {
+              "text": "",
+              "tag": "",
+              "selectorHint": ""
+            }
+          },
+          {
+            "id": "UI-004",
+            "severity": "Medium",
+            "issue": "Unbranded Server Default Page",
+            "description": "The page renders default web server text without any visual branding, trust cues, or styled UI components.",
+            "recommendation": "Create a custom-designed 404 error page matching the brand's visual identity.",
+            "target": {
+              "text": "Not Found",
+              "tag": "h2",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_sample_house_interior_html-UI-004.png"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://searchonic.online/portfolio.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/portfolio.html",
+        "loadTime": 1343,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_portfolio.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_portfolio.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/portfolio.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/portfolio.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "Portfolio",
+        "strengths": [
+          "Centered layout and simple typography focus attention cleanly on the system status text."
+        ],
+        "issues": [
+          {
+            "id": "UI-001",
+            "severity": "Critical",
+            "issue": "Page Not Found (404 Error)",
+            "description": "The portfolio page displays a standard 404 server error, preventing visitors from viewing work samples.",
+            "recommendation": "Restore the portfolio page file or update links pointing to this URL.",
+            "target": {
+              "text": "404",
+              "tag": "h1",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_portfolio_html-UI-001.png"
+          },
+          {
+            "id": "UI-002",
+            "severity": "High",
+            "issue": "Missing Navigation Menu",
+            "description": "The interface lacks navigation options, forcing users to use browser back controls or bounce from the site.",
+            "recommendation": "Maintain standard header navigation with links to key site sections across error states.",
+            "target": {
+              "text": "",
+              "tag": "",
+              "selectorHint": ""
+            }
+          },
+          {
+            "id": "UI-003",
+            "severity": "High",
+            "issue": "Missing Call-to-Action",
+            "description": "No visible action button or link exists to redirect users to active portfolio items or home.",
+            "recommendation": "Provide a clear primary CTA button such as 'Return to Homepage' or 'Search Portfolio'.",
+            "target": {
+              "text": "",
+              "tag": "",
+              "selectorHint": ""
+            }
+          },
+          {
+            "id": "UI-004",
+            "severity": "Medium",
+            "issue": "Lack of Brand Identity and Trust Signals",
+            "description": "Generic plain-text page drops brand trust and context for users arriving from external links.",
+            "recommendation": "Style the 404 page using custom typography, logo, and helpful contact/search widgets.",
+            "target": {
+              "text": "The resource requested could not be found on this server!",
+              "tag": "p",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_portfolio_html-UI-004.png"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://searchonic.online/contact-us.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/contact-us.html",
+        "loadTime": 1377,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_contact-us.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_contact-us.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/contact-us.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/contact-us.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "Contact Us",
+        "strengths": [
+          "Clean centered visual hierarchy for error notification text."
+        ],
+        "issues": [
+          {
+            "id": "UI-001",
+            "severity": "Critical",
+            "issue": "Inaccessible Contact Page (404 Error)",
+            "description": "The contact page URL returns a 404 error, blocking users from reaching customer support or submitting inquiries.",
+            "recommendation": "Ensure the contact-us.html template is correctly named and hosted on the server.",
+            "target": {
+              "text": "404",
+              "tag": "h1",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_contact_us_html-UI-001.png"
+          },
+          {
+            "id": "UI-002",
+            "severity": "High",
+            "issue": "Missing Direct Contact Fallback Information",
+            "description": "No alternative support email, phone number, or direct form is provided on this error view.",
+            "recommendation": "Display direct contact details (e.g., email address and phone number) directly on custom error pages.",
+            "target": {
+              "text": "",
+              "tag": "",
+              "selectorHint": ""
+            }
+          },
+          {
+            "id": "UI-003",
+            "severity": "High",
+            "issue": "No Actionable Navigation or CTA Button",
+            "description": "The user is left with no navigation bar or action button to continue browsing.",
+            "recommendation": "Add a prominent button encouraging users to return to the home page or help center.",
+            "target": {
+              "text": "",
+              "tag": "",
+              "selectorHint": ""
+            }
+          },
+          {
+            "id": "UI-004",
+            "severity": "Medium",
+            "issue": "Generic Server Error Message",
+            "description": "Standard technical error message damages visual credibility and offers poor user experience.",
+            "recommendation": "Replace system default 404 message with human-centric, brand-aligned messaging.",
+            "target": {
+              "text": "Not Found",
+              "tag": "h2",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/searchonic_online_contact_us_html-UI-004.png"
+          }
+        ]
+      }
+    }
+  ]
+}

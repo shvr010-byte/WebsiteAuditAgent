@@ -1,0 +1,2231 @@
+{
+  "metadata": {
+    "website": "https://www.tagteamsigns.com/",
+    "totalPages": 1,
+    "completedAt": "2026-08-09T12:01:36.884Z"
+  },
+  "pages": [
+    {
+      "url": "https://www.tagteamsigns.com/",
+      "playwright": {
+        "title": "HOME | Mysite",
+        "finalUrl": "https://www.tagteamsigns.com/",
+        "loadTime": 2806,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\www.tagteamsigns.com_-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\www.tagteamsigns.com_-mobile.png",
+        "consoleErrors": [],
+        "networkErrors": []
+      },
+      "lighthouse": {
+        "performance": 15,
+        "accessibility": 100,
+        "seo": 92,
+        "bestPractices": 77,
+        "issues": {
+          "performance": [
+            {
+              "id": "first-contentful-paint",
+              "title": "First Contentful Paint",
+              "score": 62,
+              "displayValue": "2.6 s",
+              "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+              "why": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+              "fix": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+              "details": null
+            },
+            {
+              "id": "largest-contentful-paint",
+              "title": "Largest Contentful Paint",
+              "score": 0,
+              "displayValue": "14.8 s",
+              "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
+              "why": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
+              "fix": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
+              "details": null
+            },
+            {
+              "id": "total-blocking-time",
+              "title": "Total Blocking Time",
+              "score": 2,
+              "displayValue": "3,440 ms",
+              "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/).",
+              "why": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/).",
+              "fix": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/).",
+              "details": null
+            },
+            {
+              "id": "cumulative-layout-shift",
+              "title": "Cumulative Layout Shift",
+              "score": 9,
+              "displayValue": "0.65",
+              "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more about the Cumulative Layout Shift metric](https://web.dev/articles/cls).",
+              "why": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more about the Cumulative Layout Shift metric](https://web.dev/articles/cls).",
+              "fix": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more about the Cumulative Layout Shift metric](https://web.dev/articles/cls).",
+              "details": {
+                "type": "debugdata",
+                "items": [
+                  {
+                    "cumulativeLayoutShiftMainFrame": 0.6502078894376755,
+                    "newEngineResultDiffered": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": "speed-index",
+              "title": "Speed Index",
+              "score": 59,
+              "displayValue": "5.2 s",
+              "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
+              "why": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
+              "fix": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
+              "details": null
+            },
+            {
+              "id": "cache-insight",
+              "title": "Use efficient cache lifetimes",
+              "score": 50,
+              "displayValue": "Est savings of 17 KiB",
+              "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache).",
+              "why": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache).",
+              "fix": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache).",
+              "details": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "url",
+                    "valueType": "url",
+                    "label": "Request"
+                  },
+                  {
+                    "key": "cacheLifetimeMs",
+                    "valueType": "ms",
+                    "label": "Cache TTL",
+                    "displayUnit": "duration"
+                  },
+                  {
+                    "key": "totalBytes",
+                    "valueType": "bytes",
+                    "label": "Transfer Size",
+                    "displayUnit": "kb",
+                    "granularity": 1
+                  }
+                ],
+                "items": [
+                  {
+                    "url": "https://static.parastorage.com/unpkg-semver/fedops-logger@5/fedops-logger.bundle.min.js",
+                    "cacheLifetimeMs": 1800000,
+                    "totalBytes": 20315,
+                    "wastedBytes": 17521.6875
+                  }
+                ],
+                "sortedBy": [
+                  "wastedBytes"
+                ],
+                "skipSumming": [
+                  "cacheLifetimeMs"
+                ],
+                "debugData": {
+                  "type": "debugdata",
+                  "wastedBytes": 17521.6875
+                }
+              }
+            },
+            {
+              "id": "cls-culprits-insight",
+              "title": "Layout shift culprits",
+              "score": 0,
+              "displayValue": "",
+              "description": "Layout shifts occur when elements move absent any user interaction. [Investigate the causes of layout shifts](https://developer.chrome.com/docs/performance/insights/cls-culprit), such as elements being added, removed, or their fonts changing as the page loads.",
+              "why": "Layout shifts occur when elements move absent any user interaction. [Investigate the causes of layout shifts](https://developer.chrome.com/docs/performance/insights/cls-culprit), such as elements being added, removed, or their fonts changing as the page loads.",
+              "fix": "Layout shifts occur when elements move absent any user interaction. [Investigate the causes of layout shifts](https://developer.chrome.com/docs/performance/insights/cls-culprit), such as elements being added, removed, or their fonts changing as the page loads.",
+              "details": {
+                "type": "list",
+                "items": [
+                  {
+                    "type": "table",
+                    "headings": [
+                      {
+                        "key": "node",
+                        "valueType": "node",
+                        "subItemsHeading": {
+                          "key": "extra"
+                        },
+                        "label": "Element"
+                      },
+                      {
+                        "key": "score",
+                        "valueType": "numeric",
+                        "subItemsHeading": {
+                          "key": "cause",
+                          "valueType": "text"
+                        },
+                        "granularity": 0.001,
+                        "label": "Layout shift score"
+                      }
+                    ],
+                    "items": [
+                      {
+                        "node": {
+                          "type": "text",
+                          "value": "Total"
+                        },
+                        "score": 0.6502078894376755
+                      },
+                      {
+                        "node": {
+                          "type": "node",
+                          "lhId": "page-1-DIV",
+                          "path": "1,HTML,1,BODY,9,DIV,1,DIV,3,DIV,0,DIV,1,MAIN,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,SECTION,1,DIV,1,DIV,1,DIV",
+                          "selector": "section#comp-ih3883fm > div.Ak0vpt > div#mediaiskgjyud1 > div",
+                          "boundingRect": {
+                            "top": 513,
+                            "bottom": 2472,
+                            "left": 0,
+                            "right": 320,
+                            "width": 320,
+                            "height": 1959
+                          },
+                          "snippet": "<div data-mesh-id=\"mediaiskgjyud1inlineContent\" data-testid=\"inline-content\" class=\"\">",
+                          "nodeLabel": "OUR\nWORK\n\nDiscover how TagTeamSigns is your best resource for creative, quality…"
+                        },
+                        "score": 0.640625
+                      },
+                      {
+                        "node": {
+                          "type": "node",
+                          "lhId": "page-1-DIV",
+                          "path": "1,HTML,1,BODY,9,DIV,1,DIV,3,DIV,0,DIV,1,MAIN,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,SECTION,1,DIV,1,DIV,1,DIV",
+                          "selector": "section#comp-ih3883fm > div.Ak0vpt > div#mediaiskgjyud1 > div",
+                          "boundingRect": {
+                            "top": 513,
+                            "bottom": 2472,
+                            "left": 0,
+                            "right": 320,
+                            "width": 320,
+                            "height": 1959
+                          },
+                          "snippet": "<div data-mesh-id=\"mediaiskgjyud1inlineContent\" data-testid=\"inline-content\" class=\"\">",
+                          "nodeLabel": "OUR\nWORK\n\nDiscover how TagTeamSigns is your best resource for creative, quality…"
+                        },
+                        "score": 0.009582889437675478,
+                        "subItems": {
+                          "type": "subitems",
+                          "items": [
+                            {
+                              "extra": {
+                                "type": "url",
+                                "value": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v26/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2"
+                              },
+                              "cause": "Web font"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "duplicated-javascript-insight",
+              "title": "Duplicated JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 27 KiB",
+              "description": "Remove large, [duplicate JavaScript modules](https://developer.chrome.com/docs/performance/insights/duplicated-javascript) from bundles to reduce unnecessary bytes consumed by network activity.",
+              "why": "Remove large, [duplicate JavaScript modules](https://developer.chrome.com/docs/performance/insights/duplicated-javascript) from bundles to reduce unnecessary bytes consumed by network activity.",
+              "fix": "Remove large, [duplicate JavaScript modules](https://developer.chrome.com/docs/performance/insights/duplicated-javascript) from bundles to reduce unnecessary bytes consumed by network activity.",
+              "details": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "source",
+                    "valueType": "code",
+                    "subItemsHeading": {
+                      "key": "url",
+                      "valueType": "url"
+                    },
+                    "label": "Source"
+                  },
+                  {
+                    "key": "wastedBytes",
+                    "valueType": "bytes",
+                    "subItemsHeading": {
+                      "key": "sourceTransferBytes"
+                    },
+                    "granularity": 10,
+                    "label": "Duplicated bytes"
+                  }
+                ],
+                "items": [
+                  {
+                    "source": "node_modules/date-fns",
+                    "wastedBytes": 6670,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/siteMembers.3aafb18a.chunk.min.js",
+                          "sourceTransferBytes": {
+                            "type": "text",
+                            "value": "--"
+                          }
+                        },
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/siteMembersWixCodeSdk.957dbd39.chunk.min.js",
+                          "sourceTransferBytes": 6670
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "source": "node_modules/tslib",
+                    "wastedBytes": 3706,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/tslib.inline.cdbfecc7.chunk.min.js",
+                          "sourceTransferBytes": {
+                            "type": "text",
+                            "value": "--"
+                          }
+                        },
+                        {
+                          "url": "https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js",
+                          "sourceTransferBytes": 3140
+                        },
+                        {
+                          "url": "https://static.parastorage.com/services/pro-gallery-tpa/1.1531.0/WixProGalleryViewerWidget.bundle.min.js",
+                          "sourceTransferBytes": 566
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "source": "node_modules/color-convert",
+                    "wastedBytes": 3071,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/domStore.ece10f59.chunk.min.js",
+                          "sourceTransferBytes": {
+                            "type": "text",
+                            "value": "--"
+                          }
+                        },
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/quickActionBar.e48f9c16.chunk.min.js",
+                          "sourceTransferBytes": 3071
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "source": "webpack:///../../feature-protected-pages/src/loginAndNavigate.ts",
+                    "wastedBytes": 3059,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/protectedPages.6b5d83a2.chunk.min.js",
+                          "sourceTransferBytes": {
+                            "type": "text",
+                            "value": "--"
+                          }
+                        },
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/platform.d1162e0c.chunk.min.js",
+                          "sourceTransferBytes": 1531
+                        },
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/assetsLoader.664431f5.chunk.min.js",
+                          "sourceTransferBytes": 1528
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "source": "node_modules/axios",
+                    "wastedBytes": 2839,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/siteMembers.3aafb18a.chunk.min.js",
+                          "sourceTransferBytes": {
+                            "type": "text",
+                            "value": "--"
+                          }
+                        },
+                        {
+                          "url": "https://static.parastorage.com/services/pro-gallery-tpa/1.1531.0/WixProGalleryViewerWidget.bundle.min.js",
+                          "sourceTransferBytes": 2839
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "source": "node_modules/color-name",
+                    "wastedBytes": 2780,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/domStore.ece10f59.chunk.min.js",
+                          "sourceTransferBytes": {
+                            "type": "text",
+                            "value": "--"
+                          }
+                        },
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/quickActionBar.e48f9c16.chunk.min.js",
+                          "sourceTransferBytes": 2140
+                        },
+                        {
+                          "url": "https://static.parastorage.com/services/pro-gallery-tpa/1.1531.0/WixProGalleryViewerWidget.bundle.min.js",
+                          "sourceTransferBytes": 640
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "source": "webpack:///../../feature-site-members/src/utils.ts",
+                    "wastedBytes": 2336,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/siteMembers.3aafb18a.chunk.min.js",
+                          "sourceTransferBytes": {
+                            "type": "text",
+                            "value": "--"
+                          }
+                        },
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/siteMembersWixCodeSdk.957dbd39.chunk.min.js",
+                          "sourceTransferBytes": 2336
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "source": "node_modules/color",
+                    "wastedBytes": 1869,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/domStore.ece10f59.chunk.min.js",
+                          "sourceTransferBytes": {
+                            "type": "text",
+                            "value": "--"
+                          }
+                        },
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/quickActionBar.e48f9c16.chunk.min.js",
+                          "sourceTransferBytes": 1869
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "source": "node_modules/fizban",
+                    "wastedBytes": 1716,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/animations.d94f0463.chunk.min.js",
+                          "sourceTransferBytes": {
+                            "type": "text",
+                            "value": "--"
+                          }
+                        },
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/motion.a51fa0ca.chunk.min.js",
+                          "sourceTransferBytes": 1716
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "source": "node_modules/color-string",
+                    "wastedBytes": 1592,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/domStore.ece10f59.chunk.min.js",
+                          "sourceTransferBytes": {
+                            "type": "text",
+                            "value": "--"
+                          }
+                        },
+                        {
+                          "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/quickActionBar.e48f9c16.chunk.min.js",
+                          "sourceTransferBytes": 999
+                        },
+                        {
+                          "url": "https://static.parastorage.com/services/pro-gallery-tpa/1.1531.0/WixProGalleryViewerWidget.bundle.min.js",
+                          "sourceTransferBytes": 593
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "debugData": {
+                  "type": "debugdata",
+                  "wastedBytes": 27771
+                }
+              }
+            },
+            {
+              "id": "image-delivery-insight",
+              "title": "Improve image delivery",
+              "score": 50,
+              "displayValue": "Est savings of 86 KiB",
+              "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)",
+              "why": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)",
+              "fix": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)",
+              "details": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "node",
+                    "valueType": "node",
+                    "label": ""
+                  },
+                  {
+                    "key": "url",
+                    "valueType": "url",
+                    "label": "URL",
+                    "subItemsHeading": {
+                      "key": "reason",
+                      "valueType": "text"
+                    }
+                  },
+                  {
+                    "key": "totalBytes",
+                    "valueType": "bytes",
+                    "label": "Resource Size"
+                  },
+                  {
+                    "key": "wastedBytes",
+                    "valueType": "bytes",
+                    "label": "Est Savings",
+                    "subItemsHeading": {
+                      "key": "wastedBytes",
+                      "valueType": "bytes"
+                    }
+                  }
+                ],
+                "items": [
+                  {
+                    "url": "https://static.wixstatic.com/media/282ef0_49577ce71b394d1da77d3fd360995bff~mv2.jpg/v1/fill/w_640,h_480,q_90,enc_avif,quality_auto/282ef0_49577ce71b394d1da77d3fd360995bff~mv2.jpg",
+                    "totalBytes": 71493,
+                    "wastedBytes": 32293,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "reason": "Increasing the image compression factor could improve this image's download size.",
+                          "wastedBytes": 20293
+                        },
+                        {
+                          "reason": "This image file is larger than it needs to be (640x480) for its displayed dimensions (560x420). Use responsive images to reduce the image download size.",
+                          "wastedBytes": 16756
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "url": "https://static.wixstatic.com/media/282ef0_e36878464fd742c9b815b5f70472d674~mv2.jpg/v1/fill/w_640,h_480,fp_0.48_0.48,q_90,enc_avif,quality_auto/282ef0_e36878464fd742c9b815b5f70472d674~mv2.jpg",
+                    "totalBytes": 68193,
+                    "wastedBytes": 28993,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "reason": "Increasing the image compression factor could improve this image's download size.",
+                          "wastedBytes": 16993
+                        },
+                        {
+                          "reason": "This image file is larger than it needs to be (640x480) for its displayed dimensions (560x420). Use responsive images to reduce the image download size.",
+                          "wastedBytes": 15983
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "node": {
+                      "type": "node",
+                      "lhId": "page-8-IMG",
+                      "path": "1,HTML,1,BODY,9,DIV,1,DIV,3,DIV,0,DIV,1,MAIN,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,SECTION,1,DIV,1,DIV,1,DIV,0,DIV,10,DIV,0,DIV,3,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,PICTURE,1,IMG",
+                      "selector": "div#item-wrapper-6e1e7a58-fd5a-4070-b3a9-9a350f6a0049 > div.gallery-item-content > picture > img#6e1e7a58-fd5a-4070-b3a9-9a350f6a0049",
+                      "boundingRect": {
+                        "top": 1022,
+                        "bottom": 1262,
+                        "left": 0,
+                        "right": 320,
+                        "width": 320,
+                        "height": 240
+                      },
+                      "snippet": "<img id=\"6e1e7a58-fd5a-4070-b3a9-9a350f6a0049\" class=\"gallery-item-visible gallery-item gallery-item-preloaded\" data-hook=\"gallery-item-image-img\" data-idx=\"0\" src=\"https://static.wixstatic.com/media/282ef0_e357c3f3d41b4f43ae84bb7c5677cd97…\" alt=\"\" loading=\"eager\" style=\"width: 320px; height: 240px; user-select: none;\">",
+                      "nodeLabel": "div#item-wrapper-6e1e7a58-fd5a-4070-b3a9-9a350f6a0049 > div.gallery-item-content > picture > img#6e1e7a58-fd5a-4070-b3a9-9a350f6a0049"
+                    },
+                    "url": "https://static.wixstatic.com/media/282ef0_e357c3f3d41b4f43ae84bb7c5677cd97~mv2.jpg/v1/fill/w_640,h_480,fp_0.51_0.51,q_90,enc_avif,quality_auto/282ef0_e357c3f3d41b4f43ae84bb7c5677cd97~mv2.jpg",
+                    "totalBytes": 61812,
+                    "wastedBytes": 22612,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "reason": "Increasing the image compression factor could improve this image's download size.",
+                          "wastedBytes": 10612
+                        },
+                        {
+                          "reason": "This image file is larger than it needs to be (640x480) for its displayed dimensions (560x420). Use responsive images to reduce the image download size.",
+                          "wastedBytes": 14487
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "node": {
+                      "type": "node",
+                      "lhId": "page-9-IMG",
+                      "path": "1,HTML,1,BODY,9,DIV,1,DIV,3,DIV,0,DIV,0,HEADER,1,DIV,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,IMG",
+                      "selector": "div > div#comp-kbjqiums > div.apPOZK > img#img_comp-kbjqiums",
+                      "boundingRect": {
+                        "top": 10,
+                        "bottom": 58,
+                        "left": 20,
+                        "right": 300,
+                        "width": 280,
+                        "height": 48
+                      },
+                      "snippet": "<img fetchpriority=\"high\" sizes=\"280px\" srcset=\"https://static.wixstatic.com/media/282ef0_d743603b2f1741c7b0f5d23474357135…\" id=\"img_comp-kbjqiums\" src=\"https://static.wixstatic.com/media/282ef0_d743603b2f1741c7b0f5d23474357135…\" alt=\"TAGTEAMSIGNS COMMERCIAL.Logo.png\" style=\"object-fit:cover\" class=\"gRkIq0 sFiSiq\" width=\"280\" height=\"48\">",
+                      "nodeLabel": "TAGTEAMSIGNS COMMERCIAL.Logo.png"
+                    },
+                    "url": "https://static.wixstatic.com/media/282ef0_d743603b2f1741c7b0f5d23474357135~mv2.png/v1/fill/w_560,h_96,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/TAGTEAMSIGNS%20COMMERCIAL_Logo.png",
+                    "totalBytes": 13499,
+                    "wastedBytes": 4539,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "reason": "Increasing the image compression factor could improve this image's download size.",
+                          "wastedBytes": 4539
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "debugData": {
+                  "type": "debugdata",
+                  "wastedBytes": 88437
+                }
+              }
+            },
+            {
+              "id": "lcp-breakdown-insight",
+              "title": "LCP breakdown",
+              "score": 0,
+              "displayValue": "",
+              "description": "Each [subpart has specific improvement strategies](https://developer.chrome.com/docs/performance/insights/lcp-breakdown). Ideally, most of the LCP time should be spent on loading the resources, not within delays.",
+              "why": "Each [subpart has specific improvement strategies](https://developer.chrome.com/docs/performance/insights/lcp-breakdown). Ideally, most of the LCP time should be spent on loading the resources, not within delays.",
+              "fix": "Each [subpart has specific improvement strategies](https://developer.chrome.com/docs/performance/insights/lcp-breakdown). Ideally, most of the LCP time should be spent on loading the resources, not within delays.",
+              "details": {
+                "type": "list",
+                "items": [
+                  {
+                    "type": "table",
+                    "headings": [
+                      {
+                        "key": "label",
+                        "valueType": "text",
+                        "label": "Subpart"
+                      },
+                      {
+                        "key": "duration",
+                        "valueType": "ms",
+                        "label": "Duration"
+                      }
+                    ],
+                    "items": [
+                      {
+                        "subpart": "timeToFirstByte",
+                        "label": "Time to first byte",
+                        "duration": 260.617
+                      },
+                      {
+                        "subpart": "elementRenderDelay",
+                        "label": "Element render delay",
+                        "duration": 8837.741
+                      }
+                    ]
+                  },
+                  {
+                    "type": "node",
+                    "lhId": "page-0-H2",
+                    "path": "1,HTML,1,BODY,9,DIV,1,DIV,3,DIV,0,DIV,1,MAIN,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,4,SECTION,1,DIV,1,DIV,1,DIV,0,DIV,16,DIV,1,H2",
+                    "selector": "div > div > div#comp-ighuawmm > h2.font_2",
+                    "boundingRect": {
+                      "top": 179,
+                      "bottom": 224,
+                      "left": 27,
+                      "right": 307,
+                      "width": 280,
+                      "height": 45
+                    },
+                    "snippet": "<h2 class=\"font_2 wixui-rich-text__text\" style=\"line-height:0.9em; font-size:50px; color:rgba(255,255,255,1);\">",
+                    "nodeLabel": "SERVICES"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "legacy-javascript-insight",
+              "title": "Legacy JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 39 KiB",
+              "description": "Polyfills and transforms enable older browsers to use new JavaScript features. However, many aren't necessary for modern browsers. Consider modifying your JavaScript build process to not transpile [Baseline](https://web.dev/articles/baseline-and-polyfills) features, unless you know you must support older browsers. [Learn why most sites can deploy ES6+ code without transpiling](https://developer.chrome.com/docs/performance/insights/legacy-javascript)",
+              "why": "Polyfills and transforms enable older browsers to use new JavaScript features. However, many aren't necessary for modern browsers. Consider modifying your JavaScript build process to not transpile [Baseline](https://web.dev/articles/baseline-and-polyfills) features, unless you know you must support older browsers. [Learn why most sites can deploy ES6+ code without transpiling](https://developer.chrome.com/docs/performance/insights/legacy-javascript)",
+              "fix": "Polyfills and transforms enable older browsers to use new JavaScript features. However, many aren't necessary for modern browsers. Consider modifying your JavaScript build process to not transpile [Baseline](https://web.dev/articles/baseline-and-polyfills) features, unless you know you must support older browsers. [Learn why most sites can deploy ES6+ code without transpiling](https://developer.chrome.com/docs/performance/insights/legacy-javascript)",
+              "details": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "url",
+                    "valueType": "url",
+                    "subItemsHeading": {
+                      "key": "location",
+                      "valueType": "source-location"
+                    },
+                    "label": "URL"
+                  },
+                  {
+                    "key": null,
+                    "valueType": "code",
+                    "subItemsHeading": {
+                      "key": "signal"
+                    },
+                    "label": ""
+                  },
+                  {
+                    "key": "wastedBytes",
+                    "valueType": "bytes",
+                    "label": "Wasted bytes"
+                  }
+                ],
+                "items": [
+                  {
+                    "url": "https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js",
+                    "wastedBytes": 40438,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "signal": "Array.prototype.find",
+                          "location": {
+                            "type": "source-location",
+                            "url": "https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js",
+                            "urlProvider": "network",
+                            "line": 1,
+                            "column": 131126,
+                            "original": {
+                              "file": "../../src/sdk.ts",
+                              "line": 266,
+                              "column": 9
+                            }
+                          }
+                        },
+                        {
+                          "signal": "Array.prototype.findIndex",
+                          "location": {
+                            "type": "source-location",
+                            "url": "https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js",
+                            "urlProvider": "network",
+                            "line": 1,
+                            "column": 131252,
+                            "original": {
+                              "file": "../../src/sdk.ts",
+                              "line": 266,
+                              "column": 9
+                            }
+                          }
+                        },
+                        {
+                          "signal": "Array.prototype.includes",
+                          "location": {
+                            "type": "source-location",
+                            "url": "https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js",
+                            "urlProvider": "network",
+                            "line": 1,
+                            "column": 131034,
+                            "original": {
+                              "file": "../../src/sdk.ts",
+                              "line": 266,
+                              "column": 9
+                            }
+                          }
+                        },
+                        {
+                          "signal": "String.prototype.endsWith",
+                          "location": {
+                            "type": "source-location",
+                            "url": "https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js",
+                            "urlProvider": "network",
+                            "line": 1,
+                            "column": 131587,
+                            "original": {
+                              "file": "../../src/sdk.ts",
+                              "line": 266,
+                              "column": 9
+                            }
+                          }
+                        },
+                        {
+                          "signal": "String.prototype.includes",
+                          "location": {
+                            "type": "source-location",
+                            "url": "https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js",
+                            "urlProvider": "network",
+                            "line": 1,
+                            "column": 131386,
+                            "original": {
+                              "file": "../../src/sdk.ts",
+                              "line": 266,
+                              "column": 9
+                            }
+                          }
+                        },
+                        {
+                          "signal": "String.prototype.startsWith",
+                          "location": {
+                            "type": "source-location",
+                            "url": "https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js",
+                            "urlProvider": "network",
+                            "line": 1,
+                            "column": 131486,
+                            "original": {
+                              "file": "../../src/sdk.ts",
+                              "line": 266,
+                              "column": 9
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "debugData": {
+                  "type": "debugdata",
+                  "wastedBytes": 40438
+                }
+              }
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Network dependency tree",
+              "score": 0,
+              "displayValue": "",
+              "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.",
+              "why": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.",
+              "fix": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.",
+              "details": {
+                "type": "list",
+                "items": [
+                  {
+                    "type": "list-section",
+                    "value": {
+                      "type": "network-tree",
+                      "chains": {
+                        "610CDA9893185570CFD7A82E0CB3A2F1": {
+                          "url": "https://www.tagteamsigns.com/",
+                          "navStartToEndTime": 771,
+                          "transferSize": 134440,
+                          "isLongest": true,
+                          "children": {
+                            "5212.81": {
+                              "url": "https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js",
+                              "navStartToEndTime": 996,
+                              "transferSize": 4778,
+                              "isLongest": true,
+                              "children": {}
+                            },
+                            "5212.29": {
+                              "url": "https://static.parastorage.com/fonts/v2/2f12de04-5ca4-4ada-9e66-a958673b12b5/v1/helvetica-w01-bold.woff2",
+                              "navStartToEndTime": 877,
+                              "transferSize": 29328,
+                              "children": {}
+                            },
+                            "5212.58": {
+                              "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v12/WmVKXVcOuffP_qmCpFuyzfk_vArhqVIZ0nv9q090hN8.woff2",
+                              "navStartToEndTime": 875,
+                              "transferSize": 33127,
+                              "children": {}
+                            },
+                            "5212.23": {
+                              "url": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v26/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
+                              "navStartToEndTime": 817,
+                              "transferSize": 42917,
+                              "children": {}
+                            }
+                          }
+                        }
+                      },
+                      "longestChain": {
+                        "duration": 996
+                      }
+                    }
+                  },
+                  {
+                    "type": "list-section",
+                    "title": "Preconnected origins",
+                    "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+                    "value": {
+                      "type": "table",
+                      "headings": [
+                        {
+                          "key": "origin",
+                          "valueType": "text",
+                          "subItemsHeading": {
+                            "key": "warning"
+                          },
+                          "label": "Origin"
+                        },
+                        {
+                          "key": "source",
+                          "valueType": "node",
+                          "label": "Source"
+                        }
+                      ],
+                      "items": [
+                        {
+                          "origin": "https://static.parastorage.com/",
+                          "source": {
+                            "type": "text",
+                            "value": "<https://static.parastorage.com/>; rel=preconnect; crossorigin"
+                          },
+                          "subItems": {
+                            "type": "subitems",
+                            "items": []
+                          }
+                        },
+                        {
+                          "origin": "https://static.parastorage.com/",
+                          "source": {
+                            "type": "text",
+                            "value": "<https://static.parastorage.com/>; rel=preconnect"
+                          },
+                          "subItems": {
+                            "type": "subitems",
+                            "items": []
+                          }
+                        },
+                        {
+                          "origin": "https://static.wixstatic.com/",
+                          "source": {
+                            "type": "text",
+                            "value": "<https://static.wixstatic.com/>; rel=preconnect; crossorigin"
+                          },
+                          "subItems": {
+                            "type": "subitems",
+                            "items": []
+                          }
+                        },
+                        {
+                          "origin": "https://static.wixstatic.com/",
+                          "source": {
+                            "type": "text",
+                            "value": "<https://static.wixstatic.com/>; rel=preconnect"
+                          },
+                          "subItems": {
+                            "type": "subitems",
+                            "items": []
+                          }
+                        },
+                        {
+                          "origin": "https://siteassets.parastorage.com",
+                          "source": {
+                            "type": "text",
+                            "value": "<https://siteassets.parastorage.com>; rel=preconnect; crossorigin"
+                          },
+                          "subItems": {
+                            "type": "subitems",
+                            "items": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "list-section",
+                    "title": "Preconnect candidates",
+                    "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+                    "value": {
+                      "type": "table",
+                      "headings": [
+                        {
+                          "key": "origin",
+                          "valueType": "text",
+                          "label": "Origin"
+                        },
+                        {
+                          "key": "wastedMs",
+                          "valueType": "ms",
+                          "label": "Est LCP savings"
+                        }
+                      ],
+                      "items": [
+                        {
+                          "origin": "https://engage.wixapps.net",
+                          "wastedMs": 467.26800000000003
+                        },
+                        {
+                          "origin": "https://panorama.wixapps.net",
+                          "wastedMs": 390.294
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "interactive",
+              "title": "Time to Interactive",
+              "score": 4,
+              "displayValue": "17.5 s",
+              "description": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/).",
+              "why": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/).",
+              "fix": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/).",
+              "details": null
+            },
+            {
+              "id": "max-potential-fid",
+              "title": "Max Potential First Input Delay",
+              "score": 0,
+              "displayValue": "1,050 ms",
+              "description": "The maximum potential First Input Delay that your users could experience is the duration of the longest task. [Learn more about the Maximum Potential First Input Delay metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-max-potential-fid/).",
+              "why": "The maximum potential First Input Delay that your users could experience is the duration of the longest task. [Learn more about the Maximum Potential First Input Delay metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-max-potential-fid/).",
+              "fix": "The maximum potential First Input Delay that your users could experience is the duration of the longest task. [Learn more about the Maximum Potential First Input Delay metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-max-potential-fid/).",
+              "details": null
+            },
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "score": 50,
+              "displayValue": "Est savings of 21 KiB",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "why": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "fix": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "details": {
+                "type": "opportunity",
+                "headings": [
+                  {
+                    "key": "url",
+                    "valueType": "url",
+                    "label": "URL"
+                  },
+                  {
+                    "key": "totalBytes",
+                    "valueType": "bytes",
+                    "label": "Transfer Size"
+                  },
+                  {
+                    "key": "wastedBytes",
+                    "valueType": "bytes",
+                    "label": "Est Savings"
+                  }
+                ],
+                "items": [
+                  {
+                    "url": ".s__3mb942.oUUTDbO--madefor{--wbu-font-stack:var(--wix-font-stack); … } …",
+                    "wastedBytes": 21413,
+                    "wastedPercent": 98.74028609612434,
+                    "totalBytes": 21686
+                  }
+                ],
+                "overallSavingsMs": 0,
+                "overallSavingsBytes": 21413,
+                "sortedBy": [
+                  "wastedBytes"
+                ],
+                "debugData": {
+                  "type": "debugdata",
+                  "metricSavings": {
+                    "FCP": 0,
+                    "LCP": 0
+                  }
+                }
+              }
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 272 KiB",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "why": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "fix": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "details": {
+                "type": "opportunity",
+                "headings": [
+                  {
+                    "key": "url",
+                    "valueType": "url",
+                    "subItemsHeading": {
+                      "key": "source",
+                      "valueType": "code"
+                    },
+                    "label": "URL"
+                  },
+                  {
+                    "key": "totalBytes",
+                    "valueType": "bytes",
+                    "subItemsHeading": {
+                      "key": "sourceBytes"
+                    },
+                    "label": "Transfer Size"
+                  },
+                  {
+                    "key": "wastedBytes",
+                    "valueType": "bytes",
+                    "subItemsHeading": {
+                      "key": "sourceWastedBytes"
+                    },
+                    "label": "Est Savings"
+                  }
+                ],
+                "items": [
+                  {
+                    "url": "https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js",
+                    "totalBytes": 131854,
+                    "wastedBytes": 93968,
+                    "wastedPercent": 71.26670408178744,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "source": "…../tracing-internal/src/browser/metrics/index.ts",
+                          "sourceBytes": 7243,
+                          "sourceWastedBytes": 6023
+                        },
+                        {
+                          "source": "…../core/src/baseclient.ts",
+                          "sourceBytes": 7658,
+                          "sourceWastedBytes": 6000
+                        },
+                        {
+                          "source": "…../core/src/tracing/span.ts",
+                          "sourceBytes": 4990,
+                          "sourceWastedBytes": 3363
+                        },
+                        {
+                          "source": "…../core/src/hub.ts",
+                          "sourceBytes": 4977,
+                          "sourceWastedBytes": 3327
+                        },
+                        {
+                          "source": "…../core/src/scope.ts",
+                          "sourceBytes": 5203,
+                          "sourceWastedBytes": 2970
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/pro-gallery-tpa/1.1531.0/WixProGalleryViewerWidget.bundle.min.js",
+                    "totalBytes": 209104,
+                    "wastedBytes": 81596,
+                    "wastedPercent": 39.02196886349334,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "source": "…../../../node_modules/@wix/common-pro-gallery-component-wrapper/node_modules/@wix/pro-gallery-old/dist/esm/components/gallery/proGallery/slideshowView.js",
+                          "sourceBytes": 4641,
+                          "sourceWastedBytes": 4276
+                        },
+                        {
+                          "source": "…../../../node_modules/i18next/dist/esm/i18next.js",
+                          "sourceBytes": 7583,
+                          "sourceWastedBytes": 4237
+                        },
+                        {
+                          "source": "…../../../node_modules/intl-messageformat-parser/lib/parser.js",
+                          "sourceBytes": 3174,
+                          "sourceWastedBytes": 3115
+                        },
+                        {
+                          "source": "…../../../node_modules/@wix/pro-layouts-old/dist/esm/logic/group.js",
+                          "sourceBytes": 2327,
+                          "sourceWastedBytes": 2004
+                        },
+                        {
+                          "source": "…../../../node_modules/@wix/pro-layouts-old/dist/esm/logic/item.js",
+                          "sourceBytes": 2082,
+                          "sourceWastedBytes": 1560
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_6.84400d58.chunk.min.js",
+                    "totalBytes": 57309,
+                    "wastedBytes": 35294,
+                    "wastedPercent": 61.58506664133979,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "source": "…../node_modules/gsap/gsap-core.js",
+                          "sourceBytes": 9848,
+                          "sourceWastedBytes": 5315
+                        },
+                        {
+                          "source": "…../node_modules/gsap/CSSPlugin.js",
+                          "sourceBytes": 3481,
+                          "sourceWastedBytes": 2996
+                        },
+                        {
+                          "source": "…../node_modules/@wix/animations-kit/dist/esm/utils/animationsUtils.js",
+                          "sourceBytes": 1385,
+                          "sourceWastedBytes": 1176
+                        },
+                        {
+                          "source": "…feature-animations/src/animations.ts",
+                          "sourceBytes": 798,
+                          "sourceWastedBytes": 728
+                        },
+                        {
+                          "source": "…../node_modules/@wix/animations-kit/dist/esm/classes/TweenEngineGreenSock3.js",
+                          "sourceBytes": 1014,
+                          "sourceWastedBytes": 722
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/motion.a51fa0ca.chunk.min.js",
+                    "totalBytes": 29670,
+                    "wastedBytes": 24180,
+                    "wastedPercent": 81.49654593582542,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "source": "…../node_modules/kuliso/src/Pointer.js",
+                          "sourceBytes": 805,
+                          "sourceWastedBytes": 805
+                        },
+                        {
+                          "source": "…feature-motion/src/AnimationManager.ts",
+                          "sourceBytes": 1398,
+                          "sourceWastedBytes": 730
+                        },
+                        {
+                          "source": "…../node_modules/@wix/motion/dist/esm/utils.js",
+                          "sourceBytes": 1018,
+                          "sourceWastedBytes": 690
+                        },
+                        {
+                          "source": "…../node_modules/@wix/motion/dist/esm/CustomAnimation.js",
+                          "sourceBytes": 626,
+                          "sourceWastedBytes": 624
+                        },
+                        {
+                          "source": "…feature-motion/src/animationApi.ts",
+                          "sourceBytes": 658,
+                          "sourceWastedBytes": 606
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.209eb21d.bundle.min.js",
+                    "totalBytes": 57411,
+                    "wastedBytes": 23001,
+                    "wastedPercent": 40.06317957310156,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "source": "…./../../node_modules/@wix/fedops-logger/dist/es/src/base-logger.js",
+                          "sourceBytes": 5076,
+                          "sourceWastedBytes": 2945
+                        },
+                        {
+                          "source": "…./../../node_modules/web-vitals/dist/web-vitals.attribution.js",
+                          "sourceBytes": 3772,
+                          "sourceWastedBytes": 1839
+                        },
+                        {
+                          "source": "…./../thunderbolt-features-loaders/src/index.ts",
+                          "sourceBytes": 3746,
+                          "sourceWastedBytes": 1692
+                        },
+                        {
+                          "source": "…./../../node_modules/@wix/site-assets-client/dist/esm/core/clientModuleExecutor.js",
+                          "sourceBytes": 791,
+                          "sourceWastedBytes": 771
+                        },
+                        {
+                          "source": "…./../../node_modules/@wix/site-assets-validation/dist/errors.js",
+                          "sourceBytes": 1076,
+                          "sourceWastedBytes": 675
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.9eb9a4be.bundle.min.js",
+                    "totalBytes": 43487,
+                    "wastedBytes": 20932,
+                    "wastedPercent": 48.13424597041289,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "source": "…thunderbolt-commons/src/responsive/layoutToCss.ts",
+                          "sourceBytes": 3208,
+                          "sourceWastedBytes": 3208
+                        },
+                        {
+                          "source": "(unmapped)",
+                          "sourceBytes": 5292,
+                          "sourceWastedBytes": 2153
+                        },
+                        {
+                          "source": "…thunderbolt-commons/src/vectorImage/index.ts",
+                          "sourceBytes": 1622,
+                          "sourceWastedBytes": 1513
+                        },
+                        {
+                          "source": "…../node_modules/comlink/dist/esm/comlink.mjs",
+                          "sourceBytes": 846,
+                          "sourceWastedBytes": 846
+                        },
+                        {
+                          "source": "…thunderbolt-commons/src/vectorImage/svgFiltersTemplates.ts",
+                          "sourceBytes": 773,
+                          "sourceWastedBytes": 733
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "overallSavingsMs": 1130,
+                "overallSavingsBytes": 278971,
+                "sortedBy": [
+                  "wastedBytes"
+                ],
+                "debugData": {
+                  "type": "debugdata",
+                  "metricSavings": {
+                    "FCP": 0,
+                    "LCP": 1130
+                  }
+                }
+              }
+            },
+            {
+              "id": "bootup-time",
+              "title": "Reduce JavaScript execution time",
+              "score": 0,
+              "displayValue": "9.9 s",
+              "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to reduce Javascript execution time](https://developer.chrome.com/docs/lighthouse/performance/bootup-time/).",
+              "why": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to reduce Javascript execution time](https://developer.chrome.com/docs/lighthouse/performance/bootup-time/).",
+              "fix": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to reduce Javascript execution time](https://developer.chrome.com/docs/lighthouse/performance/bootup-time/).",
+              "details": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "url",
+                    "valueType": "url",
+                    "label": "URL"
+                  },
+                  {
+                    "key": "total",
+                    "granularity": 1,
+                    "valueType": "ms",
+                    "label": "Total CPU Time"
+                  },
+                  {
+                    "key": "scripting",
+                    "granularity": 1,
+                    "valueType": "ms",
+                    "label": "Script Evaluation"
+                  },
+                  {
+                    "key": "scriptParseCompile",
+                    "granularity": 1,
+                    "valueType": "ms",
+                    "label": "Script Parse"
+                  }
+                ],
+                "items": [
+                  {
+                    "url": "Unattributable",
+                    "total": 4234.163999999974,
+                    "scripting": 2169.983999999992,
+                    "scriptParseCompile": 0
+                  },
+                  {
+                    "url": "https://www.tagteamsigns.com/",
+                    "total": 3751.659999999998,
+                    "scripting": 942.8399999999996,
+                    "scriptParseCompile": 195.07200000000012
+                  },
+                  {
+                    "url": "https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js",
+                    "total": 1904.5039999999874,
+                    "scripting": 1817.7479999999873,
+                    "scriptParseCompile": 2.472
+                  },
+                  {
+                    "url": "https://static.parastorage.com/unpkg/requirejs-bolt@2.3.6/requirejs.min.js",
+                    "total": 812.4119999999997,
+                    "scripting": 806.2719999999997,
+                    "scriptParseCompile": 3.204
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.209eb21d.bundle.min.js",
+                    "total": 487.38400000000024,
+                    "scripting": 393.8680000000002,
+                    "scriptParseCompile": 57.856
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_6.84400d58.chunk.min.js",
+                    "total": 410.3760000000001,
+                    "scripting": 145.0200000000001,
+                    "scriptParseCompile": 84.02
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_2.910667fd.chunk.min.js",
+                    "total": 381.76000000000016,
+                    "scripting": 366.36800000000017,
+                    "scriptParseCompile": 11.316
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/pro-gallery-tpa/1.1531.0/WixProGalleryViewerWidget.bundle.min.js",
+                    "total": 343.08000000000004,
+                    "scripting": 41.08000000000001,
+                    "scriptParseCompile": 283.536
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_5.3acec901.chunk.min.js",
+                    "total": 290.00400000000013,
+                    "scripting": 230.82800000000023,
+                    "scriptParseCompile": 9.08
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.9eb9a4be.bundle.min.js",
+                    "total": 269.192,
+                    "scripting": 184.664,
+                    "scriptParseCompile": 33.452000000000005
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt_bootstrap.677f2204.bundle.min.js",
+                    "total": 233.62400000000002,
+                    "scripting": 191.74000000000004,
+                    "scriptParseCompile": 33.58800000000001
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/animations.d94f0463.chunk.min.js",
+                    "total": 228.648,
+                    "scripting": 222.1,
+                    "scriptParseCompile": 4.327999999999999
+                  },
+                  {
+                    "url": "https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js",
+                    "total": 180.81199999999998,
+                    "scripting": 64.26400000000001,
+                    "scriptParseCompile": 37.928000000000004
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt_bootstrap-classic.a98a8d7d.bundle.min.js",
+                    "total": 161.1759999999998,
+                    "scripting": 135.0479999999998,
+                    "scriptParseCompile": 25.184
+                  },
+                  {
+                    "url": "https://static.parastorage.com/unpkg/lodash@4.17.23/lodash.min.js",
+                    "total": 134.57200000000003,
+                    "scripting": 108.30400000000002,
+                    "scriptParseCompile": 25.556
+                  },
+                  {
+                    "url": "https://browser.sentry-cdn.com/7.120.3/bundle.tracing.es5.min.js",
+                    "total": 134.42399999999998,
+                    "scripting": 85.92399999999999,
+                    "scriptParseCompile": 25.712
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-components-registry.5b11072b.chunk.min.js",
+                    "total": 120.63600000000004,
+                    "scripting": 99.09600000000003,
+                    "scriptParseCompile": 11.540000000000001
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt_mobile.46cb8fd0.bundle.min.js",
+                    "total": 115.00799999999997,
+                    "scripting": 102.16799999999998,
+                    "scriptParseCompile": 11.612
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[StripColumnsContainer_Default].cc539659.bundle.min.js",
+                    "total": 109.68399999999998,
+                    "scripting": 96.59999999999998,
+                    "scriptParseCompile": 12.232
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/reporter-api.71a5ef2b.chunk.min.js",
+                    "total": 102.96400000000001,
+                    "scripting": 92.96000000000001,
+                    "scriptParseCompile": 9.696
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[MenuContainer_Classic].930a0b9c.bundle.min.js",
+                    "total": 102.57199999999997,
+                    "scripting": 83.21999999999998,
+                    "scriptParseCompile": 18.74
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.097eac4d.chunk.min.js",
+                    "total": 94.85600000000002,
+                    "scripting": 77.35200000000002,
+                    "scriptParseCompile": 14.792
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/rb_wixui.thunderbolt[QuickActionBar_floatingSkin].6f7e6cd4.bundle.min.js",
+                    "total": 90.71200000000006,
+                    "scripting": 79.06400000000006,
+                    "scriptParseCompile": 10.944
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_3.a22a799c.chunk.min.js",
+                    "total": 89.86800000000001,
+                    "scripting": 65.26,
+                    "scriptParseCompile": 23.951999999999998
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/motion.a51fa0ca.chunk.min.js",
+                    "total": 74.712,
+                    "scripting": 38.676,
+                    "scriptParseCompile": 25.084
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/tag-manager-client/1.1066.0/siteTags.bundle.min.js",
+                    "total": 65.504,
+                    "scripting": 32.07600000000001,
+                    "scriptParseCompile": 3.516
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/accessibilityBrowserZoom.f43a588a.chunk.min.js",
+                    "total": 64.72800000000001,
+                    "scripting": 49.62400000000001,
+                    "scriptParseCompile": 12.616
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/domStore.ece10f59.chunk.min.js",
+                    "total": 58.49200000000001,
+                    "scripting": 44.54000000000001,
+                    "scriptParseCompile": 13.068
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_30.9d2d4c10.chunk.min.js",
+                    "total": 56.18800000000002,
+                    "scripting": 43.63600000000002,
+                    "scriptParseCompile": 3.524
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/siteMembers.3aafb18a.chunk.min.js",
+                    "total": 55.672,
+                    "scripting": 29.919999999999995,
+                    "scriptParseCompile": 25.268
+                  },
+                  {
+                    "url": "https://static.parastorage.com/services/editor-elements-library/dist/thunderbolt/htmlparser2.23a436be.bundle.min.js",
+                    "total": 50.732,
+                    "scripting": 22.428,
+                    "scriptParseCompile": 21.02
+                  }
+                ],
+                "summary": {
+                  "wastedMs": 9912.579999999982
+                },
+                "sortedBy": [
+                  "total"
+                ]
+              }
+            },
+            {
+              "id": "mainthread-work-breakdown",
+              "title": "Minimize main-thread work",
+              "score": 0,
+              "displayValue": "16.1 s",
+              "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)",
+              "why": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)",
+              "fix": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)",
+              "details": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "groupLabel",
+                    "valueType": "text",
+                    "label": "Category"
+                  },
+                  {
+                    "key": "duration",
+                    "valueType": "ms",
+                    "granularity": 1,
+                    "label": "Time Spent"
+                  }
+                ],
+                "items": [
+                  {
+                    "group": "scriptEvaluation",
+                    "groupLabel": "Script Evaluation",
+                    "duration": 9504.428000000104
+                  },
+                  {
+                    "group": "other",
+                    "groupLabel": "Other",
+                    "duration": 2979.7319999999777
+                  },
+                  {
+                    "group": "styleLayout",
+                    "groupLabel": "Style & Layout",
+                    "duration": 1455.4560000000001
+                  },
+                  {
+                    "group": "scriptParseCompile",
+                    "groupLabel": "Script Parsing & Compilation",
+                    "duration": 1198.5199999999998
+                  },
+                  {
+                    "group": "parseHTML",
+                    "groupLabel": "Parse HTML & CSS",
+                    "duration": 470.83600000000007
+                  },
+                  {
+                    "group": "paintCompositeRender",
+                    "groupLabel": "Rendering",
+                    "duration": 295.388
+                  },
+                  {
+                    "group": "garbageCollection",
+                    "groupLabel": "Garbage Collection",
+                    "duration": 163.95200000000014
+                  }
+                ],
+                "sortedBy": [
+                  "duration"
+                ]
+              }
+            },
+            {
+              "id": "layout-shifts",
+              "title": "Avoid large layout shifts",
+              "score": 0,
+              "displayValue": "2 layout shifts found",
+              "description": "These are the largest layout shifts observed on the page. Each table item represents a single layout shift, and shows the element that shifted the most. Below each item are possible root causes that led to the layout shift. Some of these layout shifts may not be included in the CLS metric value due to [windowing](https://web.dev/articles/cls#what_is_cls). [Learn how to improve CLS](https://web.dev/articles/optimize-cls)",
+              "why": "These are the largest layout shifts observed on the page. Each table item represents a single layout shift, and shows the element that shifted the most. Below each item are possible root causes that led to the layout shift. Some of these layout shifts may not be included in the CLS metric value due to [windowing](https://web.dev/articles/cls#what_is_cls). [Learn how to improve CLS](https://web.dev/articles/optimize-cls)",
+              "fix": "These are the largest layout shifts observed on the page. Each table item represents a single layout shift, and shows the element that shifted the most. Below each item are possible root causes that led to the layout shift. Some of these layout shifts may not be included in the CLS metric value due to [windowing](https://web.dev/articles/cls#what_is_cls). [Learn how to improve CLS](https://web.dev/articles/optimize-cls)",
+              "details": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "node",
+                    "valueType": "node",
+                    "subItemsHeading": {
+                      "key": "extra"
+                    },
+                    "label": "Element"
+                  },
+                  {
+                    "key": "score",
+                    "valueType": "numeric",
+                    "subItemsHeading": {
+                      "key": "cause",
+                      "valueType": "text"
+                    },
+                    "granularity": 0.001,
+                    "label": "Layout shift score"
+                  }
+                ],
+                "items": [
+                  {
+                    "node": {
+                      "type": "node",
+                      "lhId": "page-1-DIV",
+                      "path": "1,HTML,1,BODY,9,DIV,1,DIV,3,DIV,0,DIV,1,MAIN,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,SECTION,1,DIV,1,DIV,1,DIV",
+                      "selector": "section#comp-ih3883fm > div.Ak0vpt > div#mediaiskgjyud1 > div",
+                      "boundingRect": {
+                        "top": 513,
+                        "bottom": 2472,
+                        "left": 0,
+                        "right": 320,
+                        "width": 320,
+                        "height": 1959
+                      },
+                      "snippet": "<div data-mesh-id=\"mediaiskgjyud1inlineContent\" data-testid=\"inline-content\" class=\"\">",
+                      "nodeLabel": "OUR\nWORK\n\nDiscover how TagTeamSigns is your best resource for creative, quality…"
+                    },
+                    "score": 0.640625
+                  },
+                  {
+                    "node": {
+                      "type": "node",
+                      "lhId": "page-1-DIV",
+                      "path": "1,HTML,1,BODY,9,DIV,1,DIV,3,DIV,0,DIV,1,MAIN,0,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,1,SECTION,1,DIV,1,DIV,1,DIV",
+                      "selector": "section#comp-ih3883fm > div.Ak0vpt > div#mediaiskgjyud1 > div",
+                      "boundingRect": {
+                        "top": 513,
+                        "bottom": 2472,
+                        "left": 0,
+                        "right": 320,
+                        "width": 320,
+                        "height": 1959
+                      },
+                      "snippet": "<div data-mesh-id=\"mediaiskgjyud1inlineContent\" data-testid=\"inline-content\" class=\"\">",
+                      "nodeLabel": "OUR\nWORK\n\nDiscover how TagTeamSigns is your best resource for creative, quality…"
+                    },
+                    "score": 0.009582889437675478,
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "extra": {
+                            "type": "url",
+                            "value": "https://static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/raleway/v26/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2"
+                          },
+                          "cause": "Web font loaded"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "accessibility": [],
+          "seo": [
+            {
+              "id": "meta-description",
+              "title": "Document does not have a meta description",
+              "score": 0,
+              "displayValue": "",
+              "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/).",
+              "why": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/).",
+              "fix": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/).",
+              "details": null
+            }
+          ],
+          "bestPractices": [
+            {
+              "id": "third-party-cookies",
+              "title": "Uses third-party cookies",
+              "score": 0,
+              "displayValue": "2 cookies found",
+              "description": "Third-party cookies may be blocked in some contexts. [Learn more about preparing for third-party cookie restrictions](https://privacysandbox.google.com/cookies/prepare/overview).",
+              "why": "Third-party cookies may be blocked in some contexts. [Learn more about preparing for third-party cookie restrictions](https://privacysandbox.google.com/cookies/prepare/overview).",
+              "fix": "Third-party cookies may be blocked in some contexts. [Learn more about preparing for third-party cookie restrictions](https://privacysandbox.google.com/cookies/prepare/overview).",
+              "details": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "name",
+                    "valueType": "text",
+                    "label": "Name"
+                  },
+                  {
+                    "key": "url",
+                    "valueType": "url",
+                    "label": "URL"
+                  }
+                ],
+                "items": [
+                  {
+                    "name": "bSession",
+                    "url": "https://engage.wixapps.net/chat-widget-server/renderChatWidget/index?pageId=masterPage&compId=comp-jqqppefn&viewerCompId=comp-jqqppefn&siteRevision=33&viewMode=site&deviceType=mobile&locale=en&tz=America%2FPhoenix&regionalLanguage=en&width=0&height=0&instance=tHZU1YMb9gYPo_9db7D-UnFY2K0E7o-w02hksoIdVOU.eyJpbnN0YW5jZUlkIjoiMmExNDA4ZDktNWNjZi00NTYzLWI2NDItZTE4Yjc1NDMxZjdhIiwiYXBwRGVmSWQiOiIxNDUxN2UxYS0zZmYwLWFmOTgtNDA4ZS0yYmQ2OTUzYzM2YTIiLCJtZXRhU2l0ZUlkIjoiMDQxYmNiMzMtNGIzMi00YWMxLThjZTctMGM1OWU2ZTQ5ODhmIiwic2lnbkRhdGUiOiIyMDI2LTA4LTA5VDExOjU5OjA3LjQzNloiLCJkZW1vTW9kZSI6ZmFsc2UsIm9yaWdpbkluc3RhbmNlSWQiOiI3NGYyYzQ1MS1mMDljLTRjNzYtOTE1NC00ZDJkZmE2ZWEyODQiLCJhaWQiOiI0Yzc1YmMyMC02Yjg1LTRkNTgtOTA1Yy04ODIyNDFjMjFkYTQiLCJiaVRva2VuIjoiMmUwZmMzZWEtMTdmZC0wZmEyLTNhYTUtZWRkMjkzYTc4N2Y1Iiwic2l0ZU93bmVySWQiOiIyODJlZjBlZC1kZGJjLTQzMDUtOWE3YS0yMTRhZDUwMGNjMDMiLCJicyI6IlVyNWJpTjRVYl9PWHB0RGdGMlhjbnhjNUlQemU1OXBVYzNzWEx3WlgyUGsiLCJzY2QiOiIyMDIwLTA2LTE2VDIyOjI2OjIyLjgyM1oifQ&currency=USD&currentCurrency=USD&commonConfig=%7B%22brand%22%3A%22wix%22%2C%22host%22%3A%22VIEWER%22%2C%22bsi%22%3A%226ac71257-bb50-4ddf-8b16-6c2b48bd980e%7C1%22%2C%22siteRevision%22%3A%2233%22%2C%22renderingFlow%22%3A%22NONE%22%2C%22language%22%3A%22en%22%2C%22locale%22%3A%22en-us%22%2C%22BSI%22%3A%226ac71257-bb50-4ddf-8b16-6c2b48bd980e%7C1%22%7D&currentRoute=.%2F&vsi=e3951e31-b8a0-43ba-a007-638f8c5b1832"
+                  },
+                  {
+                    "name": "XSRF-TOKEN",
+                    "url": "https://engage.wixapps.net/_api/chat-web/v1/real-time-tokens"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "inspector-issues",
+              "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+              "score": 0,
+              "displayValue": "",
+              "description": "Issues logged to the `Issues` panel in Chrome Devtools indicate unresolved problems. They can come from network request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome DevTools for more details on each issue.",
+              "why": "Issues logged to the `Issues` panel in Chrome Devtools indicate unresolved problems. They can come from network request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome DevTools for more details on each issue.",
+              "fix": "Issues logged to the `Issues` panel in Chrome Devtools indicate unresolved problems. They can come from network request failures, insufficient security controls, and other browser concerns. Open up the Issues panel in Chrome DevTools for more details on each issue.",
+              "details": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "issueType",
+                    "valueType": "text",
+                    "subItemsHeading": {
+                      "key": "url",
+                      "valueType": "url"
+                    },
+                    "label": "Issue type"
+                  }
+                ],
+                "items": [
+                  {
+                    "issueType": "Cookie",
+                    "subItems": {
+                      "type": "subitems",
+                      "items": [
+                        {
+                          "url": "https://engage.wixapps.net/chat-widget-server/renderChatWidget/index?pageId=masterPage&compId=comp-jqqppefn&viewerCompId=comp-jqqppefn&siteRevision=33&viewMode=site&deviceType=mobile&locale=en&tz=America%2FPhoenix&regionalLanguage=en&width=0&height=0&instance=tHZU1YMb9gYPo_9db7D-UnFY2K0E7o-w02hksoIdVOU.eyJpbnN0YW5jZUlkIjoiMmExNDA4ZDktNWNjZi00NTYzLWI2NDItZTE4Yjc1NDMxZjdhIiwiYXBwRGVmSWQiOiIxNDUxN2UxYS0zZmYwLWFmOTgtNDA4ZS0yYmQ2OTUzYzM2YTIiLCJtZXRhU2l0ZUlkIjoiMDQxYmNiMzMtNGIzMi00YWMxLThjZTctMGM1OWU2ZTQ5ODhmIiwic2lnbkRhdGUiOiIyMDI2LTA4LTA5VDExOjU5OjA3LjQzNloiLCJkZW1vTW9kZSI6ZmFsc2UsIm9yaWdpbkluc3RhbmNlSWQiOiI3NGYyYzQ1MS1mMDljLTRjNzYtOTE1NC00ZDJkZmE2ZWEyODQiLCJhaWQiOiI0Yzc1YmMyMC02Yjg1LTRkNTgtOTA1Yy04ODIyNDFjMjFkYTQiLCJiaVRva2VuIjoiMmUwZmMzZWEtMTdmZC0wZmEyLTNhYTUtZWRkMjkzYTc4N2Y1Iiwic2l0ZU93bmVySWQiOiIyODJlZjBlZC1kZGJjLTQzMDUtOWE3YS0yMTRhZDUwMGNjMDMiLCJicyI6IlVyNWJpTjRVYl9PWHB0RGdGMlhjbnhjNUlQemU1OXBVYzNzWEx3WlgyUGsiLCJzY2QiOiIyMDIwLTA2LTE2VDIyOjI2OjIyLjgyM1oifQ&currency=USD&currentCurrency=USD&commonConfig=%7B%22brand%22%3A%22wix%22%2C%22host%22%3A%22VIEWER%22%2C%22bsi%22%3A%226ac71257-bb50-4ddf-8b16-6c2b48bd980e%7C1%22%2C%22siteRevision%22%3A%2233%22%2C%22renderingFlow%22%3A%22NONE%22%2C%22language%22%3A%22en%22%2C%22locale%22%3A%22en-us%22%2C%22BSI%22%3A%226ac71257-bb50-4ddf-8b16-6c2b48bd980e%7C1%22%7D&currentRoute=.%2F&vsi=e3951e31-b8a0-43ba-a007-638f8c5b1832"
+                        },
+                        {
+                          "url": "https://engage.wixapps.net/_api/chat-web/v1/real-time-tokens"
+                        },
+                        {
+                          "url": "https://panorama.wixapps.net/api/v1/bulklog"
+                        },
+                        {
+                          "url": "https://engage.wixapps.net/serverless/chat-event-reporter/report-event"
+                        },
+                        {
+                          "url": "https://engage.wixapps.net/_api/presence-service/v1/set-data"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "metrics": {
+          "firstContentfulPaint": "2.6 s",
+          "largestContentfulPaint": "14.8 s",
+          "speedIndex": "5.2 s",
+          "totalBlockingTime": "3,440 ms",
+          "cumulativeLayoutShift": "0.65"
+        },
+        "opportunities": {
+          "type": "debugdata",
+          "items": [
+            {
+              "numRequests": 222,
+              "numScripts": 102,
+              "numStylesheets": 5,
+              "numFonts": 3,
+              "numTasks": 3589,
+              "numTasksOver10ms": 73,
+              "numTasksOver25ms": 28,
+              "numTasksOver50ms": 10,
+              "numTasksOver100ms": 2,
+              "numTasksOver500ms": 0,
+              "rtt": 0,
+              "throughput": 6546017.920857393,
+              "maxRtt": 274.293,
+              "maxServerLatency": 427.6865,
+              "totalByteWeight": 2671297,
+              "totalTaskTime": 4017.07799999999,
+              "mainDocumentTransferSize": 134440
+            }
+          ]
+        }
+      },
+      "accessibility": {
+        "url": "https://www.tagteamsigns.com/",
+        "title": "HOME | Mysite",
+        "violations": 1,
+        "passes": 50,
+        "incomplete": 1,
+        "issues": [
+          {
+            "impact": "moderate",
+            "rule": "landmark-unique",
+            "description": "Ensure landmarks are unique",
+            "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-unique?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<main id=\"PAGES_CONTAINER\" class=\"PAGES_CONTAINER\" tabindex=\"-1\" data-main-content=\"true\">",
+                "target": [
+                  "#PAGES_CONTAINER"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "functionality": {
+        "score": 60,
+        "summary": {
+          "linksChecked": 9,
+          "brokenLinks": 3,
+          "buttons": 2,
+          "forms": 1,
+          "consoleErrors": 0
+        },
+        "issues": [
+          {
+            "title": "Link could not be reached: signs@tagteamsigns.com",
+            "severity": "Medium",
+            "why": "The link could not be reached during testing.",
+            "fix": "Check that the URL exists and is accessible."
+          },
+          {
+            "title": "Broken link: https://www.facebook.com/TagTeamSigns-100587941708787",
+            "severity": "High",
+            "why": "The link returned HTTP 400.",
+            "fix": "Update the URL or remove the broken link."
+          },
+          {
+            "title": "Broken link: https://www.linkedin.com/in/tag-team-signs-34985756/",
+            "severity": "High",
+            "why": "The link returned HTTP 999.",
+            "fix": "Update the URL or remove the broken link."
+          }
+        ]
+      },
+      "responsive": {
+        "score": 70,
+        "summary": {
+          "viewportsTested": 3,
+          "issuesFound": 2
+        },
+        "results": [
+          {
+            "viewport": "Mobile",
+            "width": 375,
+            "height": 812,
+            "viewportWidth": 375,
+            "documentWidth": 980,
+            "horizontalOverflow": true,
+            "overflowingElements": [
+              {
+                "selector": "div#pageBackground_jt80h",
+                "className": "pageBackground_jt80h _7xVID"
+              },
+              {
+                "selector": "div#bgLayers_pageBackground_jt80h",
+                "className": "QG9w8P"
+              },
+              {
+                "selector": "div",
+                "className": "LNYVZi ayCf9D"
+              },
+              {
+                "selector": "div#bgMedia_pageBackground_jt80h",
+                "className": "ROWgFb"
+              },
+              {
+                "selector": "div#site-root",
+                "className": "site-root"
+              },
+              {
+                "selector": "div#masterPage",
+                "className": "mesh-layout masterPage css-editing-scope"
+              },
+              {
+                "selector": "header#SITE_HEADER",
+                "className": "CDNoF4 SITE_HEADER wixui-header"
+              },
+              {
+                "selector": "div",
+                "className": "kBvIHj"
+              },
+              {
+                "selector": "div",
+                "className": "EaoiSu"
+              },
+              {
+                "selector": "div",
+                "className": "YmWgf4"
+              }
+            ]
+          },
+          {
+            "viewport": "Tablet",
+            "width": 768,
+            "height": 1024,
+            "viewportWidth": 768,
+            "documentWidth": 980,
+            "horizontalOverflow": true,
+            "overflowingElements": [
+              {
+                "selector": "div#pageBackground_jt80h",
+                "className": "pageBackground_jt80h _7xVID"
+              },
+              {
+                "selector": "div#bgLayers_pageBackground_jt80h",
+                "className": "QG9w8P"
+              },
+              {
+                "selector": "div",
+                "className": "LNYVZi ayCf9D"
+              },
+              {
+                "selector": "div#bgMedia_pageBackground_jt80h",
+                "className": "ROWgFb"
+              },
+              {
+                "selector": "div#site-root",
+                "className": "site-root"
+              },
+              {
+                "selector": "div#masterPage",
+                "className": "mesh-layout masterPage css-editing-scope"
+              },
+              {
+                "selector": "header#SITE_HEADER",
+                "className": "CDNoF4 SITE_HEADER wixui-header"
+              },
+              {
+                "selector": "div",
+                "className": "kBvIHj"
+              },
+              {
+                "selector": "div",
+                "className": "EaoiSu"
+              },
+              {
+                "selector": "div",
+                "className": "YmWgf4"
+              }
+            ]
+          },
+          {
+            "viewport": "Desktop",
+            "width": 1280,
+            "height": 720,
+            "viewportWidth": 1280,
+            "documentWidth": 1280,
+            "horizontalOverflow": false,
+            "overflowingElements": []
+          }
+        ],
+        "issues": [
+          {
+            "title": "Horizontal overflow on Mobile",
+            "severity": "High",
+            "why": "The page content is wider than the mobile viewport (375px). This can cause horizontal scrolling or content to be cut off.",
+            "fix": "Use responsive widths, max-width: 100%, flexible layouts, and avoid fixed-width elements that exceed the viewport.",
+            "viewport": "Mobile",
+            "width": 375,
+            "overflowingElements": [
+              {
+                "selector": "div#pageBackground_jt80h",
+                "className": "pageBackground_jt80h _7xVID"
+              },
+              {
+                "selector": "div#bgLayers_pageBackground_jt80h",
+                "className": "QG9w8P"
+              },
+              {
+                "selector": "div",
+                "className": "LNYVZi ayCf9D"
+              },
+              {
+                "selector": "div#bgMedia_pageBackground_jt80h",
+                "className": "ROWgFb"
+              },
+              {
+                "selector": "div#site-root",
+                "className": "site-root"
+              },
+              {
+                "selector": "div#masterPage",
+                "className": "mesh-layout masterPage css-editing-scope"
+              },
+              {
+                "selector": "header#SITE_HEADER",
+                "className": "CDNoF4 SITE_HEADER wixui-header"
+              },
+              {
+                "selector": "div",
+                "className": "kBvIHj"
+              },
+              {
+                "selector": "div",
+                "className": "EaoiSu"
+              },
+              {
+                "selector": "div",
+                "className": "YmWgf4"
+              }
+            ]
+          },
+          {
+            "title": "Horizontal overflow on Tablet",
+            "severity": "Medium",
+            "why": "The page content is wider than the tablet viewport (768px). This can cause horizontal scrolling or content to be cut off.",
+            "fix": "Use responsive widths, max-width: 100%, flexible layouts, and avoid fixed-width elements that exceed the viewport.",
+            "viewport": "Tablet",
+            "width": 768,
+            "overflowingElements": [
+              {
+                "selector": "div#pageBackground_jt80h",
+                "className": "pageBackground_jt80h _7xVID"
+              },
+              {
+                "selector": "div#bgLayers_pageBackground_jt80h",
+                "className": "QG9w8P"
+              },
+              {
+                "selector": "div",
+                "className": "LNYVZi ayCf9D"
+              },
+              {
+                "selector": "div#bgMedia_pageBackground_jt80h",
+                "className": "ROWgFb"
+              },
+              {
+                "selector": "div#site-root",
+                "className": "site-root"
+              },
+              {
+                "selector": "div#masterPage",
+                "className": "mesh-layout masterPage css-editing-scope"
+              },
+              {
+                "selector": "header#SITE_HEADER",
+                "className": "CDNoF4 SITE_HEADER wixui-header"
+              },
+              {
+                "selector": "div",
+                "className": "kBvIHj"
+              },
+              {
+                "selector": "div",
+                "className": "EaoiSu"
+              },
+              {
+                "selector": "div",
+                "className": "YmWgf4"
+              }
+            ]
+          }
+        ]
+      },
+      "uiux": {
+        "page": "Homepage",
+        "strengths": [
+          "Bold visual presence with strong headline typography",
+          "Clear contact section with an integrated contact form and direct phone/email information",
+          "Logical visual separation of page content sections"
+        ],
+        "issues": [
+          {
+            "id": "UI-001",
+            "severity": "Critical",
+            "issue": "Unreadable dark red text on bright red background in 'OUR MISSION' section",
+            "description": "The body text inside the 'OUR MISSION' section uses a dark red font color over a vibrant red background, severely failing accessibility standards and rendering the text nearly invisible.",
+            "recommendation": "Change the paragraph text color to white (#FFFFFF) to ensure high contrast and readability against the red background.",
+            "target": {
+              "text": "TagTeamSigns was established in 2001 to make the process of purchasing high quality...",
+              "tag": "p",
+              "selectorHint": ".our-mission p"
+            },
+            "annotatedScreenshot": "screenshots/www_tagteamsigns_com_-UI-001.png"
+          },
+          {
+            "id": "UI-002",
+            "severity": "High",
+            "issue": "Missing prominent Call-to-Action (CTA) in Hero section",
+            "description": "The top hero banner displays large text but lacks any actionable primary button (e.g., 'Get a Quote' or 'Contact Us'), missing a key opportunity to convert primary visitors.",
+            "recommendation": "Add a prominent primary CTA button below 'SIGNS DESIGN BUILD INSTALL' leading directly to the estimate or contact form.",
+            "target": {
+              "text": "SIGNS DESIGN BUILD INSTALL",
+              "tag": "h1",
+              "selectorHint": ".hero"
+            }
+          },
+          {
+            "id": "UI-003",
+            "severity": "High",
+            "issue": "Low contrast bullet text over background image in 'WHO WE ARE'",
+            "description": "The red bulleted list in the 'WHO WE ARE' section is placed over a light grayscale background image, causing poor contrast and reduced legibility.",
+            "recommendation": "Place the text list over a solid white or semi-opaque light background container, or use a darker, contrasting text color.",
+            "target": {
+              "text": "• Pan Channel Letters",
+              "tag": "ul",
+              "selectorHint": ".who-we-are ul"
+            },
+            "annotatedScreenshot": "screenshots/www_tagteamsigns_com_-UI-003.png"
+          },
+          {
+            "id": "UI-004",
+            "severity": "Medium",
+            "issue": "Unlabeled service icons in 'OUR SERVICES' section",
+            "description": "The 'OUR SERVICES' section displays four tiny red icons on a dark gray background with no accompanying labels, text, or links, offering zero contextual value to the user.",
+            "recommendation": "Add clear text titles and short service descriptions under each icon, and increase icon size and contrast.",
+            "target": {
+              "text": "",
+              "tag": "div",
+              "selectorHint": ".our-services .icon-list"
+            },
+            "annotatedScreenshot": "screenshots/www_tagteamsigns_com_-UI-004.png"
+          },
+          {
+            "id": "UI-005",
+            "severity": "Medium",
+            "issue": "Low contrast and small font size in header navigation",
+            "description": "The header navigation links use a thin, small white font over the bright red top bar, making navigation items difficult to scan quickly.",
+            "recommendation": "Increase the header navigation font size and font weight for better legibility and target spacing.",
+            "target": {
+              "text": "HOME SERVICES ABOUT US WORK CONTACT",
+              "tag": "nav",
+              "selectorHint": "header nav"
+            },
+            "annotatedScreenshot": "screenshots/www_tagteamsigns_com_-UI-005.png"
+          },
+          {
+            "id": "UI-006",
+            "severity": "Medium",
+            "issue": "Overuse of highly saturated red backgrounds causing visual fatigue",
+            "description": "Large full-width blocks of saturated red are repeated across multiple sections (Hero, Our Work, Our Mission), creating visual fatigue and overwhelming the user.",
+            "recommendation": "Use red primarily as an accent color for CTAs, headings, and key highlights while using neutral white or off-white for full section backgrounds.",
+            "target": {
+              "text": "",
+              "tag": "section",
+              "selectorHint": ".our-mission"
+            },
+            "annotatedScreenshot": "screenshots/www_tagteamsigns_com_-UI-006.png"
+          },
+          {
+            "id": "UI-007",
+            "severity": "Low",
+            "issue": "Outdated copyright statement in footer",
+            "description": "The footer displays '© 2020 by TAGTEAMSIGNS', which gives users the impression that the business or website is no longer actively maintained.",
+            "recommendation": "Update the copyright notice to the current year dynamically using JavaScript.",
+            "target": {
+              "text": "© 2020 by TAGTEAMSIGNS",
+              "tag": "p",
+              "selectorHint": "footer p"
+            },
+            "annotatedScreenshot": "screenshots/www_tagteamsigns_com_-UI-007.png"
+          }
+        ]
+      }
+    }
+  ]
+}

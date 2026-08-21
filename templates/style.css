@@ -1,0 +1,183 @@
+/* ---------- General ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7fb;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+/* ---------- Cover ---------- */
+
+.cover {
+    background: linear-gradient(135deg, #2563eb, #0f172a);
+    color: white;
+    padding: 60px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cover h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.cover p {
+    font-size: 18px;
+}
+
+/* ---------- Sections ---------- */
+
+.section {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.section h2 {
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+/* ---------- Tables ---------- */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ---------- Score Cards ---------- */
+
+.score-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.score-card {
+    flex: 1;
+    min-width: 170px;
+    background: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.score-card h3 {
+    font-size: 36px;
+}
+
+/* ---------- Severity ---------- */
+
+.severity-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.severity-grid div {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.critical {
+    background: #dc2626;
+}
+
+.high {
+    background: #ea580c;
+}
+
+.medium {
+    background: #eab308;
+    color: black !important;
+}
+
+.low {
+    background: #16a34a;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+/* =========================================
+   UI/UX Issue Cards
+   ========================================= */
+
+.uiux-page {
+    margin-top: 35px;
+}
+
+.uiux-page > h2 {
+    margin-bottom: 25px;
+    word-break: break-word;
+}
+
+.uiux-issue {
+    background: #ffffff;
+    border: 1px solid #e1e5ea;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 0 0 30px 0;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+    page-break-inside: avoid;
+}
+
+.uiux-issue h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 22px;
+}
+
+.uiux-issue p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.uiux-issue strong {
+    font-weight: 700;
+}
+
+.uiux-screenshot {
+    margin-top: 20px;
+    padding: 12px;
+    background: #f7f8fa;
+    border-radius: 10px;
+    text-align: center;
+    page-break-inside: avoid;
+}
+
+.uiux-screenshot img {
+    max-width: 100%;
+    width: 900px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 1px solid #d9dde3;
+}

@@ -1,0 +1,327 @@
+{
+  "metadata": {
+    "website": "https://example.com/",
+    "totalPages": 1,
+    "completedAt": "2026-08-11T06:50:54.285Z"
+  },
+  "pages": [
+    {
+      "url": "https://example.com/",
+      "playwright": {
+        "title": "Example Domain",
+        "finalUrl": "https://example.com/",
+        "loadTime": 173,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\example.com_-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\example.com_-mobile.png",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "desktopError": null,
+        "mobileError": null
+      },
+      "lighthouse": {
+        "performance": 100,
+        "accessibility": 96,
+        "seo": 80,
+        "bestPractices": 96,
+        "issues": {
+          "performance": [],
+          "accessibility": [
+            {
+              "id": "landmark-one-main",
+              "title": "Document does not have a main landmark.",
+              "score": 0,
+              "displayValue": "",
+              "description": "One main landmark helps screen reader users navigate a web page. [Learn more about landmarks](https://dequeuniversity.com/rules/axe/4.12/landmark-one-main).",
+              "why": "Lighthouse identified an issue with this page.",
+              "fix": "One main landmark helps screen reader users navigate a web page. [Learn more about landmarks](https://dequeuniversity.com/rules/axe/4.12/landmark-one-main).",
+              "affectedElements": [
+                {
+                  "selector": "html",
+                  "snippet": "<html lang=\"en\">",
+                  "path": "1,HTML",
+                  "url": "",
+                  "reason": ""
+                }
+              ],
+              "details": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "node",
+                    "valueType": "node",
+                    "subItemsHeading": {
+                      "key": "relatedNode",
+                      "valueType": "node"
+                    },
+                    "label": "Failing Elements"
+                  }
+                ],
+                "items": [
+                  {
+                    "node": {
+                      "type": "node",
+                      "lhId": "1-0-HTML",
+                      "path": "1,HTML",
+                      "selector": "html",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 416,
+                        "left": 0,
+                        "right": 412,
+                        "width": 412,
+                        "height": 416
+                      },
+                      "snippet": "<html lang=\"en\">",
+                      "nodeLabel": "html",
+                      "explanation": "Fix all of the following:\n  Document does not have a main landmark"
+                    }
+                  }
+                ],
+                "debugData": {
+                  "type": "debugdata",
+                  "impact": "moderate",
+                  "tags": [
+                    "cat.semantics",
+                    "best-practice"
+                  ]
+                }
+              }
+            }
+          ],
+          "seo": [
+            {
+              "id": "meta-description",
+              "title": "Document does not have a meta description",
+              "score": 0,
+              "displayValue": "",
+              "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/).",
+              "why": "The page does not have a useful meta description that summarizes its content for search engines.",
+              "fix": "Add a unique, concise meta description describing the page and its main value to users.",
+              "affectedElements": [],
+              "details": null
+            },
+            {
+              "id": "link-text",
+              "title": "Links do not have descriptive text",
+              "score": 0,
+              "displayValue": "1 link found",
+              "description": "Descriptive link text helps search engines understand your content. [Learn how to make links more accessible](https://developer.chrome.com/docs/lighthouse/seo/link-text/).",
+              "why": "Lighthouse reported 1 link found for this audit, indicating that this check did not meet the recommended threshold.",
+              "fix": "Descriptive link text helps search engines understand your content. [Learn how to make links more accessible](https://developer.chrome.com/docs/lighthouse/seo/link-text/).",
+              "affectedElements": [],
+              "details": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "href",
+                    "valueType": "url",
+                    "label": "Link destination"
+                  },
+                  {
+                    "key": "text",
+                    "valueType": "text",
+                    "label": "Link Text"
+                  }
+                ],
+                "items": [
+                  {
+                    "href": "https://iana.org/domains/example",
+                    "text": "Learn more",
+                    "textLang": "en"
+                  }
+                ]
+              }
+            }
+          ],
+          "bestPractices": [
+            {
+              "id": "charset",
+              "title": "Charset declaration is missing or occurs too late in the HTML",
+              "score": 0,
+              "displayValue": "",
+              "description": "A character encoding declaration is required. It can be done with a `<meta>` tag in the first 1024 bytes of the HTML or in the Content-Type HTTP response header. [Learn more about declaring the character encoding](https://developer.chrome.com/docs/lighthouse/best-practices/charset/).",
+              "why": "Lighthouse identified an issue with this page.",
+              "fix": "A character encoding declaration is required. It can be done with a `<meta>` tag in the first 1024 bytes of the HTML or in the Content-Type HTTP response header. [Learn more about declaring the character encoding](https://developer.chrome.com/docs/lighthouse/best-practices/charset/).",
+              "affectedElements": [],
+              "details": null
+            }
+          ]
+        },
+        "metrics": {
+          "firstContentfulPaint": "0.8 s",
+          "largestContentfulPaint": "0.8 s",
+          "speedIndex": "0.8 s",
+          "totalBlockingTime": "0 ms",
+          "cumulativeLayoutShift": "0"
+        },
+        "opportunities": {
+          "type": "debugdata",
+          "items": [
+            {
+              "numRequests": 1,
+              "numScripts": 0,
+              "numStylesheets": 0,
+              "numFonts": 0,
+              "numTasks": 114,
+              "numTasksOver10ms": 2,
+              "numTasksOver25ms": 0,
+              "numTasksOver50ms": 0,
+              "numTasksOver100ms": 0,
+              "numTasksOver500ms": 0,
+              "rtt": 38.387,
+              "throughput": 5176470.742189582,
+              "maxRtt": 38.387,
+              "maxServerLatency": 9.583999999999989,
+              "totalByteWeight": 473,
+              "totalTaskTime": 62.45600000000003,
+              "mainDocumentTransferSize": 473
+            }
+          ]
+        }
+      },
+      "accessibility": {
+        "url": "https://example.com/",
+        "title": "Example Domain",
+        "violations": 2,
+        "passes": 13,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html lang=\"en\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p><a href=\"https://iana.org/domains/example\">Learn more</a></p></div>",
+                "target": [
+                  "div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "functionality": {
+        "score": 100,
+        "summary": {
+          "linksChecked": 1,
+          "brokenLinks": 0,
+          "buttons": 0,
+          "forms": 0,
+          "consoleErrors": 0
+        },
+        "issues": []
+      },
+      "responsive": {
+        "score": 100,
+        "summary": {
+          "viewportsTested": 3,
+          "issuesFound": 0
+        },
+        "results": [
+          {
+            "viewport": "Mobile",
+            "width": 375,
+            "height": 812,
+            "viewportWidth": 375,
+            "documentWidth": 375,
+            "horizontalOverflow": false,
+            "overflowingElements": []
+          },
+          {
+            "viewport": "Tablet",
+            "width": 768,
+            "height": 1024,
+            "viewportWidth": 768,
+            "documentWidth": 768,
+            "horizontalOverflow": false,
+            "overflowingElements": []
+          },
+          {
+            "viewport": "Desktop",
+            "width": 1280,
+            "height": 720,
+            "viewportWidth": 1280,
+            "documentWidth": 1280,
+            "horizontalOverflow": false,
+            "overflowingElements": []
+          }
+        ],
+        "issues": []
+      },
+      "uiux": {
+        "page": "Homepage",
+        "strengths": [
+          "Clean and uncluttered presentation of text content",
+          "Clear typographic hierarchy between heading and body text"
+        ],
+        "issues": [
+          {
+            "id": "UI-001",
+            "severity": "Medium",
+            "issue": "Weak visual prominence for call-to-action link",
+            "description": "The 'Learn more' action is styled as a plain inline hyperlinked text with light color styling, offering minimal visual weight.",
+            "recommendation": "Transform the link into a styled button with proper background contrast, padding, and clear focus states.",
+            "target": {
+              "text": "Learn more",
+              "tag": "a",
+              "selectorHint": "a"
+            },
+            "annotatedScreenshot": "screenshots/example_com_-UI-001.png"
+          },
+          {
+            "id": "UI-002",
+            "severity": "High",
+            "issue": "Absence of main navigation and site header",
+            "description": "The page lacks a visible header, navigation menu, or brand identifier, hindering site orientation.",
+            "recommendation": "Implement a standard site header containing branding and essential navigation menu items.",
+            "target": {
+              "text": "",
+              "tag": "header",
+              "selectorHint": ""
+            }
+          },
+          {
+            "id": "UI-003",
+            "severity": "Medium",
+            "issue": "Unbalanced content layout with excessive whitespace",
+            "description": "The main content container sits awkwardly in the upper left section surrounded by vast empty space, leading to an incomplete page appearance.",
+            "recommendation": "Center the content container vertically and horizontally within a structured card layout or container framework.",
+            "target": {
+              "text": "",
+              "tag": "div",
+              "selectorHint": ""
+            },
+            "annotatedScreenshot": "screenshots/example_com_-UI-003.png"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "websiteauditagent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@axe-core/cli": "^4.12.1",
+    "@axe-core/playwright": "^4.12.1",
+    "@google/genai": "^2.16.0",
+    "broken-link-checker": "^0.7.8",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "lighthouse": "^13.4.1",
+    "marked": "^18.0.9",
+    "playwright": "^1.62.1",
+    "puppeteer": "^25.5.0",
+    "sharp": "^0.35.3"
+  }
+}

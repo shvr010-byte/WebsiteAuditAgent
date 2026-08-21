@@ -1,0 +1,1742 @@
+{
+  "metadata": {
+    "website": "https://searchonic.online",
+    "totalPages": 9,
+    "completedAt": "2026-08-07T12:38:02.302Z"
+  },
+  "pages": [
+    {
+      "url": "https://searchonic.online/",
+      "playwright": {
+        "title": "Home – Evoque",
+        "finalUrl": "https://searchonic.online/",
+        "loadTime": 2438,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_-mobile.png",
+        "consoleErrors": [
+          "Refused to apply style from 'https://searchonic.online/css/bootstrap.min.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/fontawesome.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/themify-icons.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/pbminfotech-base-icons.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/flaticon.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/swiper.min.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/aos.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/magnific-popup.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/shortcode.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/base.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/custom.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Refused to apply style from 'https://searchonic.online/css/responsive.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/js/jquery.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/js/popper.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/bootstrap.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/jquery.waypoints.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/jquery.appear.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/numinate.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/swiper.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/jquery.magnific-popup.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/circle-progress.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/jquery.countdown.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/aos.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/gsap.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/ScrollTrigger.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/SplitText.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/js/magnetic.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/js/morphext.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/js/popper.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/gsap-animation.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/isotope.pkgd.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Refused to execute script from 'https://searchonic.online/js/scripts.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()",
+          "Refused to execute script from 'https://searchonic.online/cdn-cgi/challenge-platform/h/b/scripts/jsd/0b8fb825cb67/maind41d.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/images/evoque.png",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/residential.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/commercial.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/office.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/terrace-walkthrough.mp4?autoplay=1&mute=1",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/final-walkthrough.mp4?autoplay=1&mute=1",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/final-walkthrough1.mp4?autoplay=1&mute=1",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/restaurant.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.waypoints.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/bootstrap.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/popper.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/swiper.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/numinate.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.appear.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/circle-progress.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.countdown.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.magnific-popup.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/aos.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/SplitText.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/ScrollTrigger.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/gsap.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/gsap-animation.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/home-space.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/ih-single-img-01.png",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/hall-project.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/dinning-project.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/portfolio/portfolio-03.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/office-project.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/badroom-project.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/bathroom-project.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-01.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-02.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-04.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-03.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-02.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-01.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-03.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-04.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/evoque_logo.png",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/home-banner1.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/home-banner3.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/home-banner2.webp",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-04b.jpg",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/magnetic.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/isotope.pkgd.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/morphext.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/scripts.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/popper.min.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/cdn-cgi/challenge-platform/h/b/scripts/jsd/0b8fb825cb67/maind41d.js",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/cdn-cgi/rum?",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 94,
+        "accessibility": 63,
+        "seo": 54,
+        "bestPractices": 96,
+        "metrics": {
+          "firstContentfulPaint": "2.4 s",
+          "largestContentfulPaint": "2.4 s",
+          "speedIndex": "2.7 s",
+          "totalBlockingTime": "0 ms",
+          "cumulativeLayoutShift": "0"
+        },
+        "opportunities": {
+          "type": "debugdata",
+          "items": [
+            {
+              "numRequests": 71,
+              "numScripts": 23,
+              "numStylesheets": 14,
+              "numFonts": 2,
+              "numTasks": 1037,
+              "numTasksOver10ms": 4,
+              "numTasksOver25ms": 1,
+              "numTasksOver50ms": 1,
+              "numTasksOver100ms": 0,
+              "numTasksOver500ms": 0,
+              "rtt": 0,
+              "throughput": 22395247.272700522,
+              "maxRtt": 59.325,
+              "maxServerLatency": 507.1865,
+              "totalByteWeight": 339999,
+              "totalTaskTime": 261.20599999999916,
+              "mainDocumentTransferSize": 9679
+            }
+          ]
+        }
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/",
+        "title": "Home – Evoque",
+        "violations": 7,
+        "passes": 29,
+        "incomplete": 1,
+        "issues": [
+          {
+            "impact": "critical",
+            "rule": "button-name",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+            "affectedElements": 2,
+            "nodes": [
+              {
+                "html": "<button class=\"navbar-toggler\" type=\"button\">\n\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"pbmit-base-icon-menu-1\"></i>\n\n\t\t\t\t\t\t\t\t\t\t</button>",
+                "target": [
+                  ".navbar-toggler"
+                ]
+              },
+              {
+                "html": "<button type=\"submit\"></button>",
+                "target": [
+                  "button[type=\"submit\"]"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "serious",
+            "rule": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+            "affectedElements": 35,
+            "nodes": [
+              {
+                "html": "<h4 class=\"pbmit-subtitle\">Our Experience</h4>",
+                "target": [
+                  ".mb-5 > h4"
+                ]
+              },
+              {
+                "html": "<h2 class=\"pbmit-title\">\n\t\t\t\t\t\t\t\tExperience Luxury Interior Design<br> Through Our Creative Vision\n\t\t\t\t\t\t\t</h2>",
+                "target": [
+                  ".mb-5 > .pbmit-title"
+                ]
+              },
+              {
+                "html": "<h4 class=\"pbmit-subtitle\">Process</h4>",
+                "target": [
+                  ".align-items-center.row > .col-xl-4.col-md-12 > .animation-style2.pbmit-heading-subheading > h4"
+                ]
+              },
+              {
+                "html": "<h2 class=\"pbmit-title\">Our Latest Project</h2>",
+                "target": [
+                  ".align-items-center.row > .col-xl-4.col-md-12 > .animation-style2.pbmit-heading-subheading > .pbmit-title"
+                ]
+              },
+              {
+                "html": "<div class=\"pbmit-port-cat\">\n\n\t\t\t\t\t\t\t\t\t\t\tLiving Room\n\n\t\t\t\t\t\t\t\t\t\t</div>",
+                "target": [
+                  ".bedroom.pbmit-portfolio-style-3.col-md-4:nth-child(1) > .pbminfotech-post-content > .pbminfotech-box-content > .pbminfotech-titlebox > .pbmit-port-cat"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "serious",
+            "rule": "frame-title",
+            "description": "Ensure <iframe> and <frame> elements have an accessible name",
+            "help": "Frames must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/frame-title?application=playwright",
+            "affectedElements": 3,
+            "nodes": [
+              {
+                "html": "<iframe src=\"images/terrace-walkthrough.mp4?autoplay=1&amp;mute=1\" allowfullscreen=\"\"></iframe>",
+                "target": [
+                  ".swiper-slide:nth-child(1) > .video-wrapper > iframe[allowfullscreen=\"\"]"
+                ]
+              },
+              {
+                "html": "<iframe src=\"images/final-walkthrough.mp4?autoplay=1&amp;mute=1\" allowfullscreen=\"\"></iframe>",
+                "target": [
+                  ".swiper-slide:nth-child(2) > .video-wrapper > iframe[allowfullscreen=\"\"]"
+                ]
+              },
+              {
+                "html": "<iframe src=\"images/final-walkthrough1.mp4?autoplay=1&amp;mute=1\" allowfullscreen=\"\"></iframe>",
+                "target": [
+                  ".swiper-slide:nth-child(3) > .video-wrapper > iframe[allowfullscreen=\"\"]"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "heading-order",
+            "description": "Ensure the order of headings is semantically correct",
+            "help": "Heading levels should only increase by one",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/heading-order?application=playwright",
+            "affectedElements": 7,
+            "nodes": [
+              {
+                "html": "<h5 class=\"pbmit-sub-title transform-top transform-delay-1\">Design\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tBeyond Walls</h5>",
+                "target": [
+                  ".swiper-slide:nth-child(1) > .pbmit-slider-item > .container > .text-center.row > .col-md-12 > .pbmit-slider-content > h5"
+                ]
+              },
+              {
+                "html": "<h5 class=\"pbmit-sub-title transform-top transform-delay-1\">Crafting\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tModern Living</h5>",
+                "target": [
+                  ".swiper-slide:nth-child(2) > .pbmit-slider-item > .container > .text-center.row > .col-md-12 > .pbmit-slider-content > h5"
+                ]
+              },
+              {
+                "html": "<h5 class=\"pbmit-sub-title transform-top transform-delay-1\">Inspired By\n\n\t\t\t\t\t\t\t\t\t\t\t\t\tLifestyle</h5>",
+                "target": [
+                  ".swiper-slide:nth-child(3) > .pbmit-slider-item > .container > .text-center.row > .col-md-12 > .pbmit-slider-content > h5"
+                ]
+              },
+              {
+                "html": "<h4 class=\"pbmit-subtitle\">Who We Are</h4>",
+                "target": [
+                  ".about-one-rightbox > .animation-style2.pbmit-heading-subheading > h4"
+                ]
+              },
+              {
+                "html": "<h4 class=\"pbmit-subtitle\" style=\"color: #000000e0; \">What we do</h4>",
+                "target": [
+                  ".animation-style2.pbmit-heading-subheading.text-center > h4"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 4,
+            "nodes": [
+              {
+                "html": "<html class=\"no-js\" lang=\"en\">",
+                "target": [
+                  "html"
+                ]
+              },
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  ".swiper-slide:nth-child(1) > .video-wrapper > iframe[allowfullscreen=\"\"]",
+                  "html"
+                ]
+              },
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  ".swiper-slide:nth-child(2) > .video-wrapper > iframe[allowfullscreen=\"\"]",
+                  "html"
+                ]
+              },
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  ".swiper-slide:nth-child(3) > .video-wrapper > iframe[allowfullscreen=\"\"]",
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "serious",
+            "rule": "link-name",
+            "description": "Ensure links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright",
+            "affectedElements": 5,
+            "nodes": [
+              {
+                "html": "<a class=\"pbmit-blog-btn\" href=\"blogs.html\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"pbmit-button-icon\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t<i class=\"pbmit-base-icon-pbmit-up-arrow\"></i>\n\n\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\n\t\t\t\t\t\t\t\t\t\t\t</a>",
+                "target": [
+                  ".pbmit-blog-btn"
+                ]
+              },
+              {
+                "html": "<a href=\"#\"><i class=\"fab fa-facebook-f\"></i></a>",
+                "target": [
+                  ".footer-social > a[href=\"#\"]:nth-child(1)"
+                ]
+              },
+              {
+                "html": "<a href=\"#\"><i class=\"fab fa-instagram\"></i></a>",
+                "target": [
+                  "a[href=\"#\"]:nth-child(2)"
+                ]
+              },
+              {
+                "html": "<a href=\"#\"><i class=\"fab fa-linkedin-in\"></i></a>",
+                "target": [
+                  "a[href=\"#\"]:nth-child(3)"
+                ]
+              },
+              {
+                "html": "<a href=\"#\"><i class=\"fab fa-youtube\"></i></a>",
+                "target": [
+                  "a[href=\"#\"]:nth-child(4)"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 12,
+            "nodes": [
+              {
+                "html": "<div class=\"pbmit-ihbox-contents\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t<h2 class=\"pbmit-element-title\">Best Awarded <br>Company </h2>\n\n\t\t\t\t\t\t\t\t\t\t\t</div>",
+                "target": [
+                  ".pbmit-ihbox-headingicon > .pbmit-ihbox-contents"
+                ]
+              },
+              {
+                "html": "<div class=\"col-md-12 col-xl-6\">",
+                "target": [
+                  ".g-0.row > .col-xl-6.col-md-12:nth-child(2)"
+                ]
+              },
+              {
+                "html": "<section class=\"pbmit-extend-animation service-one pbmit-bg-color-secondary\">",
+                "target": [
+                  ".pbmit-extend-animation"
+                ]
+              },
+              {
+                "html": "<div class=\"pbmit-heading-subheading animation-style2\">\n\t\t\t\t\t\t<div class=\"text-center mb-5\">\n\t\t\t\t\t\t\t<h4 class=\"pbmit-subtitle\">Our Experience</h4>\n\n\t\t\t\t\t\t\t<h2 class=\"pbmit-title\">\n\t\t\t\t\t\t\t\tExperience Luxury Interior Design<br> Through Our Creative Vision\n\t\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>",
+                "target": [
+                  ".container > .animation-style2.pbmit-heading-subheading"
+                ]
+              },
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  ".swiper-slide:nth-child(1) > .video-wrapper > iframe[allowfullscreen=\"\"]",
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 68,
+        "broken": 68,
+        "redirects": 0,
+        "brokenLinks": [
+          {
+            "url": "https://searchonic.online/images/favicon-evoque.png",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/bootstrap.min.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/fontawesome.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/flaticon.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/pbminfotech-base-icons.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/themify-icons.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/swiper.min.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/magnific-popup.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/aos.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/shortcode.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/base.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/style.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/responsive.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/css/custom.css",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/evoque.png",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/about-us.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/home-interior-service.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/office-interior-service.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/restaurant-interior-service.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/commercial-interior-service.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/sample-house-interior.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/portfolio.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/blogs.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/contact-us.html",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/residential.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/commercial.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/restaurant.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/office.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/home-space.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/terrace-walkthrough.mp4?autoplay=1&mute=1",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/final-walkthrough.mp4?autoplay=1&mute=1",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/final-walkthrough1.mp4?autoplay=1&mute=1",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/ih-single-img-01.png",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/hall-project.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/dinning-project.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/portfolio/portfolio-03.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/office-project.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/bathroom-project.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/badroom-project.webp",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-01.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-02.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-03.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/reviewer/reviewer-04.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-01.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-02.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-03.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/homepage-1/blog/blog-04.jpg",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/images/evoque_logo.png",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/popper.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/bootstrap.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.waypoints.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.appear.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/numinate.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/swiper.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.magnific-popup.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/circle-progress.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/jquery.countdown.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/aos.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/gsap.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/ScrollTrigger.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/SplitText.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/magnetic.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/morphext.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/gsap-animation.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/isotope.pkgd.min.js",
+            "reason": "HTTP_404",
+            "status": 404
+          },
+          {
+            "url": "https://searchonic.online/js/scripts.js",
+            "reason": "HTTP_404",
+            "status": 404
+          }
+        ],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "https://searchonic.online/",
+        "strengths": [],
+        "issues": [],
+        "error": "{\"error\":{\"code\":404,\"message\":\"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.\",\"status\":\"NOT_FOUND\"}}"
+      }
+    },
+    {
+      "url": "https://searchonic.online/about-us.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/about-us.html",
+        "loadTime": 1366,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_about-us.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_about-us.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/about-us.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/about-us.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "https://searchonic.online/about-us.html",
+        "strengths": [],
+        "issues": [],
+        "error": "{\"error\":{\"code\":404,\"message\":\"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.\",\"status\":\"NOT_FOUND\"}}"
+      }
+    },
+    {
+      "url": "https://searchonic.online/home-interior-service.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/home-interior-service.html",
+        "loadTime": 1321,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_home-interior-service.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_home-interior-service.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/home-interior-service.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/home-interior-service.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "https://searchonic.online/home-interior-service.html",
+        "strengths": [],
+        "issues": [],
+        "error": "{\"error\":{\"code\":404,\"message\":\"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.\",\"status\":\"NOT_FOUND\"}}"
+      }
+    },
+    {
+      "url": "https://searchonic.online/office-interior-service.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/office-interior-service.html",
+        "loadTime": 1311,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_office-interior-service.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_office-interior-service.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/office-interior-service.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/office-interior-service.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "https://searchonic.online/office-interior-service.html",
+        "strengths": [],
+        "issues": [],
+        "error": "{\"error\":{\"code\":404,\"message\":\"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.\",\"status\":\"NOT_FOUND\"}}"
+      }
+    },
+    {
+      "url": "https://searchonic.online/restaurant-interior-service.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/restaurant-interior-service.html",
+        "loadTime": 1321,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_restaurant-interior-service.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_restaurant-interior-service.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/restaurant-interior-service.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/restaurant-interior-service.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "https://searchonic.online/restaurant-interior-service.html",
+        "strengths": [],
+        "issues": [],
+        "error": "{\"error\":{\"code\":404,\"message\":\"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.\",\"status\":\"NOT_FOUND\"}}"
+      }
+    },
+    {
+      "url": "https://searchonic.online/commercial-interior-service.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/commercial-interior-service.html",
+        "loadTime": 1321,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_commercial-interior-service.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_commercial-interior-service.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/commercial-interior-service.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/commercial-interior-service.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "https://searchonic.online/commercial-interior-service.html",
+        "strengths": [],
+        "issues": [],
+        "error": "{\"error\":{\"code\":404,\"message\":\"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.\",\"status\":\"NOT_FOUND\"}}"
+      }
+    },
+    {
+      "url": "https://searchonic.online/sample-house-interior.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/sample-house-interior.html",
+        "loadTime": 1325,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_sample-house-interior.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_sample-house-interior.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/sample-house-interior.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/sample-house-interior.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "https://searchonic.online/sample-house-interior.html",
+        "strengths": [],
+        "issues": [],
+        "error": "{\"error\":{\"code\":404,\"message\":\"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.\",\"status\":\"NOT_FOUND\"}}"
+      }
+    },
+    {
+      "url": "https://searchonic.online/portfolio.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/portfolio.html",
+        "loadTime": 1356,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_portfolio.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_portfolio.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/portfolio.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/portfolio.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "https://searchonic.online/portfolio.html",
+        "strengths": [],
+        "issues": [],
+        "error": "{\"error\":{\"code\":404,\"message\":\"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.\",\"status\":\"NOT_FOUND\"}}"
+      }
+    },
+    {
+      "url": "https://searchonic.online/contact-us.html",
+      "playwright": {
+        "title": "404 Not Found",
+        "finalUrl": "https://searchonic.online/contact-us.html",
+        "loadTime": 1343,
+        "desktopScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_contact-us.html-desktop.png",
+        "mobileScreenshot": "C:\\Users\\Admin\\Documents\\WebsiteAuditAgent\\screenshots\\searchonic.online_contact-us.html-mobile.png",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [
+          {
+            "url": "https://searchonic.online/contact-us.html",
+            "status": 404
+          }
+        ]
+      },
+      "lighthouse": {
+        "performance": 0,
+        "accessibility": 0,
+        "seo": 0,
+        "bestPractices": 0,
+        "metrics": {},
+        "opportunities": null
+      },
+      "accessibility": {
+        "url": "https://searchonic.online/contact-us.html",
+        "title": "404 Not Found",
+        "violations": 3,
+        "passes": 10,
+        "incomplete": 0,
+        "issues": [
+          {
+            "impact": "serious",
+            "rule": "html-has-lang",
+            "description": "Ensure every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "landmark-one-main",
+            "description": "Ensure the document has a main landmark",
+            "help": "Document should have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/landmark-one-main?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<html style=\"height:100%\">",
+                "target": [
+                  "html"
+                ]
+              }
+            ]
+          },
+          {
+            "impact": "moderate",
+            "rule": "region",
+            "description": "Ensure all page content is contained by landmarks",
+            "help": "All page content should be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+            "affectedElements": 1,
+            "nodes": [
+              {
+                "html": "<div style=\"height:auto; min-height:100%; \">",
+                "target": [
+                  "body > div"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "links": {
+        "scanned": 0,
+        "broken": 0,
+        "redirects": 0,
+        "brokenLinks": [],
+        "redirectsList": []
+      },
+      "uiux": {
+        "page": "https://searchonic.online/contact-us.html",
+        "strengths": [],
+        "issues": [],
+        "error": "{\"error\":{\"code\":404,\"message\":\"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.\",\"status\":\"NOT_FOUND\"}}"
+      }
+    }
+  ]
+}

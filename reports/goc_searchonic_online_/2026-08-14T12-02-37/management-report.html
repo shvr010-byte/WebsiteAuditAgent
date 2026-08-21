@@ -1,0 +1,3746 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+    Website Audit - Management Report
+</title>
+
+
+<style>
+
+/* ============================================================
+   BASIC
+   ============================================================ */
+
+* {
+
+    box-sizing:
+        border-box;
+
+}
+
+
+body {
+
+    margin:
+        0;
+
+    padding:
+        0;
+
+    background:
+        #f5f7fb;
+
+    color:
+        #1f2937;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+}
+
+
+.container {
+
+    width:
+        92%;
+
+    max-width:
+        1050px;
+
+    margin:
+        0 auto;
+
+    padding:
+        35px 0 50px;
+
+}
+
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+
+.header {
+
+    background:
+        #ffffff;
+
+    border:
+        1px solid #e5e7eb;
+
+    border-radius:
+        16px;
+
+    padding:
+        30px;
+
+    margin-bottom:
+        25px;
+
+}
+
+
+.report-label {
+
+    color:
+        #2563eb;
+
+    font-size:
+        13px;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        1px;
+
+    margin-bottom:
+        8px;
+
+}
+
+
+.header h1 {
+
+    margin:
+        0 0 18px;
+
+    color:
+        #111827;
+
+    font-size:
+        30px;
+
+}
+
+
+.info {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap:
+        12px;
+
+}
+
+
+.info-box {
+
+    background:
+        #f8fafc;
+
+    border-radius:
+        9px;
+
+    padding:
+        13px 15px;
+
+}
+
+
+.info-label {
+
+    display:
+        block;
+
+    color:
+        #6b7280;
+
+    font-size:
+        12px;
+
+    margin-bottom:
+        4px;
+
+}
+
+
+.info-value {
+
+    color:
+        #111827;
+
+    font-size:
+        14px;
+
+    font-weight:
+        600;
+
+    word-break:
+        break-word;
+
+}
+
+
+/* ============================================================
+   ISSUE CARD
+   ============================================================ */
+
+.issue {
+
+    display:
+        flex;
+
+    gap:
+        20px;
+
+    background:
+        #ffffff;
+
+    border:
+        1px solid #e5e7eb;
+
+    border-radius:
+        15px;
+
+    padding:
+        25px;
+
+    margin-bottom:
+        18px;
+
+    page-break-inside:
+        avoid;
+
+}
+
+
+.issue-number {
+
+    flex:
+        0 0 42px;
+
+    width:
+        42px;
+
+    height:
+        42px;
+
+    border-radius:
+        50%;
+
+    background:
+        #2563eb;
+
+    color:
+        #ffffff;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    font-size:
+        17px;
+
+    font-weight:
+        700;
+
+}
+
+
+.issue-content {
+
+    flex:
+        1;
+
+    min-width:
+        0;
+
+}
+
+
+.issue-content h2 {
+
+    margin:
+        0 0 20px;
+
+    color:
+        #111827;
+
+    font-size:
+        20px;
+
+    line-height:
+        1.4;
+
+}
+
+
+/* ============================================================
+   LABELS
+   ============================================================ */
+
+.section-label {
+
+    color:
+        #374151;
+
+    font-size:
+        13px;
+
+    font-weight:
+        700;
+
+    margin-bottom:
+        7px;
+
+}
+
+
+.fix-label {
+
+    margin-top:
+        18px;
+
+}
+
+
+/* ============================================================
+   PAGE
+   ============================================================ */
+
+.page-list {
+
+    background:
+        #f8fafc;
+
+    border:
+        1px solid #e5e7eb;
+
+    border-radius:
+        8px;
+
+    padding:
+        11px 13px;
+
+    word-break:
+        break-word;
+
+}
+
+
+.page-list a {
+
+    color:
+        #2563eb;
+
+    text-decoration:
+        none;
+
+    font-size:
+        13px;
+
+    line-height:
+        1.6;
+
+}
+
+
+.page-list a:hover {
+
+    text-decoration:
+        underline;
+
+}
+
+
+.page-count {
+
+    color:
+        #374151;
+
+    font-size:
+        14px;
+
+    margin-bottom:
+        8px;
+
+}
+
+
+details {
+
+    margin-top:
+        5px;
+
+}
+
+
+summary {
+
+    cursor:
+        pointer;
+
+    color:
+        #2563eb;
+
+    font-size:
+        13px;
+
+    font-weight:
+        600;
+
+}
+
+
+details ul {
+
+    margin:
+        10px 0 0 20px;
+
+    padding:
+        0;
+
+}
+
+
+details li {
+
+    margin-bottom:
+        7px;
+
+}
+
+
+/* ============================================================
+   HOW TO FIX
+   ============================================================ */
+
+.fix {
+
+    background:
+        #eff6ff;
+
+    border-left:
+        4px solid #2563eb;
+
+    border-radius:
+        6px;
+
+    padding:
+        14px 16px;
+
+    color:
+        #1e3a8a;
+
+    font-size:
+        14px;
+
+    line-height:
+        1.65;
+
+}
+
+
+/* ============================================================
+   NO ISSUES
+   ============================================================ */
+
+.no-issues {
+
+    background:
+        #ffffff;
+
+    border:
+        1px solid #e5e7eb;
+
+    border-radius:
+        15px;
+
+    padding:
+        40px;
+
+    text-align:
+        center;
+
+}
+
+
+.no-issues h2 {
+
+    margin:
+        0 0 8px;
+
+    color:
+        #111827;
+
+}
+
+
+.no-issues p {
+
+    margin:
+        0;
+
+    color:
+        #6b7280;
+
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+.footer {
+
+    text-align:
+        center;
+
+    color:
+        #9ca3af;
+
+    font-size:
+        11px;
+
+    margin-top:
+        30px;
+
+}
+
+
+/* ============================================================
+   PRINT
+   ============================================================ */
+
+@media print {
+
+    body {
+
+        background:
+            #ffffff;
+
+    }
+
+
+    .container {
+
+        width:
+            100%;
+
+        max-width:
+            none;
+
+        padding:
+            15px;
+
+    }
+
+
+    .issue {
+
+        break-inside:
+            avoid;
+
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .info {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .issue {
+
+        gap:
+            12px;
+
+        padding:
+            18px;
+
+    }
+
+
+    .issue-number {
+
+        flex-basis:
+            36px;
+
+        width:
+            36px;
+
+        height:
+            36px;
+
+    }
+
+
+    .issue-content h2 {
+
+        font-size:
+            18px;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+
+    <div class="header">
+
+        <div class="report-label">
+
+            WEBSITE AUDIT
+
+        </div>
+
+
+        <h1>
+
+            Simple Management Report
+
+        </h1>
+
+
+        <div class="info">
+
+
+            <div class="info-box">
+
+                <span class="info-label">
+
+                    Website
+
+                </span>
+
+                <span class="info-value">
+
+                    https://goc.searchonic.online/
+
+                </span>
+
+            </div>
+
+
+            <div class="info-box">
+
+                <span class="info-label">
+
+                    Pages Audited
+
+                </span>
+
+                <span class="info-value">
+
+                    22
+
+                </span>
+
+            </div>
+
+
+            <div class="info-box">
+
+                <span class="info-label">
+
+                    Issues Shown
+
+                </span>
+
+                <span class="info-value">
+
+                    15
+
+                </span>
+
+            </div>
+
+
+            <div class="info-box">
+
+                <span class="info-label">
+
+                    Report Type
+
+                </span>
+
+                <span class="info-value">
+
+                    Management Summary
+
+                </span>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         ISSUES
+         ===================================================== -->
+
+    
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        1
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            Analytics graphics display placeholder and nonsensical text instead of real data
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <a
+                            href="https://goc.searchonic.online/revenue-cloud-implementation"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            https://goc.searchonic.online/revenue-cloud-implementation
+                        </a>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Replace dummy graphic labels with realistic business metrics and accurate terminology.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        2
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            Illustration style conflicts with the photographic imagery used on the rest of the site
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <a
+                            href="https://goc.searchonic.online/agentforce-for-manufacturing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            https://goc.searchonic.online/agentforce-for-manufacturing
+                        </a>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Use a consistent visual style, choosing either real photography or illustrations across all pages.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        3
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            Top navigation button and main hero button share identical colors, weakening visual hierarchy
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <a
+                            href="https://goc.searchonic.online/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            https://goc.searchonic.online/
+                        </a>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Make the header button an outline style so the main consultation button stands out as the primary action.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        4
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            Salesforce partner logo is displayed without context or trust credentials
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <a
+                            href="https://goc.searchonic.online/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            https://goc.searchonic.online/
+                        </a>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Place the logo inside a dedicated partner badge with clear text indicating partner status.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        5
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            About page introduces a sales pitch before explaining the company&#039;s background
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <a
+                            href="https://goc.searchonic.online/about"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            https://goc.searchonic.online/about
+                        </a>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Update the top banner on the About page to highlight the company&#039;s mission and expertise before asking users to connect.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        6
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            Primary action button labels are overly wordy and hard to scan
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <div class="page-count">
+
+                            Found on
+
+                            <strong>
+                                4
+                            </strong>
+
+                            pages
+
+                        </div>
+
+
+                        <details>
+
+                            <summary>
+                                View affected pages
+                            </summary>
+
+
+                            <ul>
+
+                                
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-implementation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-implementation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-manufacturing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-manufacturing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-medical-devices"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-medical-devices
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-manufacturing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-manufacturing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                            </ul>
+
+                        </details>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Shorten the button text to concise, action-focused labels like &#039;Get Started&#039; or &#039;Request a Consultation&#039;.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        7
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            Text and link colors do not have enough contrast against their background
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <div class="page-count">
+
+                            Found on
+
+                            <strong>
+                                22
+                            </strong>
+
+                            pages
+
+                        </div>
+
+
+                        <details>
+
+                            <summary>
+                                View affected pages
+                            </summary>
+
+
+                            <ul>
+
+                                
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/about"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/about
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-implementation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-implementation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-manufacturing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-manufacturing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-medical-devices"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-medical-devices
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-manufacturing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-manufacturing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-food-beverage"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-food-beverage
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-martech"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-martech
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-food-beverage"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-food-beverage
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-martech"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-martech
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-medical"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-medical
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/ai-powered-quoting-with-agentforce"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/ai-powered-quoting-with-agentforce
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-revenue-management"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-revenue-management
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/subscription-billing-management"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/subscription-billing-management
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/usage-based-billing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/usage-based-billing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/cpq-billing-integration"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/cpq-billing-integration
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-recognition-automation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-recognition-automation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/contact-us"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/contact-us
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/salesforce-agentforce-services"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/salesforce-agentforce-services
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-implementation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-implementation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/salesforce-revenue-cloud-services"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/salesforce-revenue-cloud-services
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/quote-to-cash-automation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/quote-to-cash-automation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                            </ul>
+
+                        </details>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Darken text, button, and breadcrumb colors to ensure they are easy to read on light backgrounds.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        8
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            Social media link to Facebook is broken
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <div class="page-count">
+
+                            Found on
+
+                            <strong>
+                                22
+                            </strong>
+
+                            pages
+
+                        </div>
+
+
+                        <details>
+
+                            <summary>
+                                View affected pages
+                            </summary>
+
+
+                            <ul>
+
+                                
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/about"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/about
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-implementation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-implementation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-manufacturing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-manufacturing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-medical-devices"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-medical-devices
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-manufacturing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-manufacturing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-food-beverage"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-food-beverage
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-martech"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-martech
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-food-beverage"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-food-beverage
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-martech"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-martech
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-medical"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-medical
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/ai-powered-quoting-with-agentforce"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/ai-powered-quoting-with-agentforce
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-revenue-management"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-revenue-management
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/subscription-billing-management"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/subscription-billing-management
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/usage-based-billing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/usage-based-billing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/cpq-billing-integration"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/cpq-billing-integration
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-recognition-automation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-recognition-automation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/contact-us"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/contact-us
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/salesforce-agentforce-services"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/salesforce-agentforce-services
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-implementation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-implementation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/salesforce-revenue-cloud-services"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/salesforce-revenue-cloud-services
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/quote-to-cash-automation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/quote-to-cash-automation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                            </ul>
+
+                        </details>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Update the Facebook link with the correct profile address or remove the link if it is no longer active.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        9
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            Pages take too long to display their main content
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <div class="page-count">
+
+                            Found on
+
+                            <strong>
+                                22
+                            </strong>
+
+                            pages
+
+                        </div>
+
+
+                        <details>
+
+                            <summary>
+                                View affected pages
+                            </summary>
+
+
+                            <ul>
+
+                                
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/about"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/about
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-implementation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-implementation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-manufacturing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-manufacturing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-medical-devices"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-medical-devices
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-manufacturing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-manufacturing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-food-beverage"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-food-beverage
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-martech"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-martech
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-food-beverage"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-food-beverage
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-martech"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-martech
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-medical"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-medical
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/ai-powered-quoting-with-agentforce"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/ai-powered-quoting-with-agentforce
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-revenue-management"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-revenue-management
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/subscription-billing-management"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/subscription-billing-management
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/usage-based-billing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/usage-based-billing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/cpq-billing-integration"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/cpq-billing-integration
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-recognition-automation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-recognition-automation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/contact-us"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/contact-us
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/salesforce-agentforce-services"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/salesforce-agentforce-services
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-implementation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-implementation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/salesforce-revenue-cloud-services"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/salesforce-revenue-cloud-services
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/quote-to-cash-automation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/quote-to-cash-automation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                            </ul>
+
+                        </details>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Compress banner images, optimize file delivery, and prioritize loading visible content first.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        10
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            Page content moves and shifts unexpectedly while loading
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <div class="page-count">
+
+                            Found on
+
+                            <strong>
+                                22
+                            </strong>
+
+                            pages
+
+                        </div>
+
+
+                        <details>
+
+                            <summary>
+                                View affected pages
+                            </summary>
+
+
+                            <ul>
+
+                                
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/about"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/about
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-implementation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-implementation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-manufacturing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-manufacturing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-medical-devices"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-medical-devices
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-manufacturing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-manufacturing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-food-beverage"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-food-beverage
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-martech"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-martech
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-food-beverage"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-food-beverage
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-martech"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-martech
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-medical"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-medical
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/ai-powered-quoting-with-agentforce"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/ai-powered-quoting-with-agentforce
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-revenue-management"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-revenue-management
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/subscription-billing-management"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/subscription-billing-management
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/usage-based-billing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/usage-based-billing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/cpq-billing-integration"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/cpq-billing-integration
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-recognition-automation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-recognition-automation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/contact-us"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/contact-us
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/salesforce-agentforce-services"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/salesforce-agentforce-services
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-implementation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-implementation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/salesforce-revenue-cloud-services"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/salesforce-revenue-cloud-services
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/quote-to-cash-automation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/quote-to-cash-automation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                            </ul>
+
+                        </details>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Set fixed width and height dimensions on all images and reserve space for dynamic content.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        11
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            Page file size is unusually heavy and takes extra time and data to download
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <a
+                            href="https://goc.searchonic.online/revenue-cloud-for-manufacturing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            https://goc.searchonic.online/revenue-cloud-for-manufacturing
+                        </a>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Compress large media files and remove unneeded assets to significantly lower page size.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        12
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            Several links do not clearly describe where they lead
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <div class="page-count">
+
+                            Found on
+
+                            <strong>
+                                22
+                            </strong>
+
+                            pages
+
+                        </div>
+
+
+                        <details>
+
+                            <summary>
+                                View affected pages
+                            </summary>
+
+
+                            <ul>
+
+                                
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/about"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/about
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-implementation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-implementation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-manufacturing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-manufacturing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-medical-devices"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-medical-devices
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-manufacturing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-manufacturing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-food-beverage"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-food-beverage
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-martech"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-martech
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-food-beverage"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-food-beverage
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-martech"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-martech
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-medical"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-medical
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/ai-powered-quoting-with-agentforce"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/ai-powered-quoting-with-agentforce
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-revenue-management"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-revenue-management
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/subscription-billing-management"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/subscription-billing-management
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/usage-based-billing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/usage-based-billing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/cpq-billing-integration"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/cpq-billing-integration
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-recognition-automation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-recognition-automation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/contact-us"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/contact-us
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/salesforce-agentforce-services"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/salesforce-agentforce-services
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-implementation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-implementation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/salesforce-revenue-cloud-services"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/salesforce-revenue-cloud-services
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/quote-to-cash-automation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/quote-to-cash-automation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                            </ul>
+
+                        </details>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Add descriptive text or accessibility labels to every link so users and screen readers understand their destination.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        13
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            Pages are missing main content structural labels used by screen readers
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <div class="page-count">
+
+                            Found on
+
+                            <strong>
+                                22
+                            </strong>
+
+                            pages
+
+                        </div>
+
+
+                        <details>
+
+                            <summary>
+                                View affected pages
+                            </summary>
+
+
+                            <ul>
+
+                                
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/about"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/about
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-implementation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-implementation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-manufacturing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-manufacturing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-medical-devices"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-medical-devices
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-manufacturing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-manufacturing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-food-beverage"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-food-beverage
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-martech"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-martech
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-food-beverage"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-food-beverage
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-for-martech"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-for-martech
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-cloud-for-medical"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-cloud-for-medical
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/ai-powered-quoting-with-agentforce"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/ai-powered-quoting-with-agentforce
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-revenue-management"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-revenue-management
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/subscription-billing-management"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/subscription-billing-management
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/usage-based-billing"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/usage-based-billing
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/cpq-billing-integration"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/cpq-billing-integration
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/revenue-recognition-automation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/revenue-recognition-automation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/contact-us"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/contact-us
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/salesforce-agentforce-services"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/salesforce-agentforce-services
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/agentforce-implementation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/agentforce-implementation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/salesforce-revenue-cloud-services"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/salesforce-revenue-cloud-services
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/quote-to-cash-automation"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/quote-to-cash-automation
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                            </ul>
+
+                        </details>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Add standard main content tags to the page layout so assistive technologies can navigate the content efficiently.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        14
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            Interactive buttons and links are too small or closely packed for mobile users
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <div class="page-count">
+
+                            Found on
+
+                            <strong>
+                                2
+                            </strong>
+
+                            pages
+
+                        </div>
+
+
+                        <details>
+
+                            <summary>
+                                View affected pages
+                            </summary>
+
+
+                            <ul>
+
+                                
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/about"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/about
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                                        <li>
+
+                                            <a
+                                                href="https://goc.searchonic.online/contact-us"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                https://goc.searchonic.online/contact-us
+                                            </a>
+
+                                        </li>
+
+                                    
+
+                            </ul>
+
+                        </details>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Increase the size and spacing of clickable buttons so mobile visitors can tap them without misclicking.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="issue">
+
+                    <div class="issue-number">
+
+                        15
+
+                    </div>
+
+
+                    <div class="issue-content">
+
+                        <h2>
+
+                            Section headings do not follow a logical order
+
+                        </h2>
+
+
+                        <div class="section-label">
+
+                            Page
+
+                        </div>
+
+
+                        
+
+                    <div class="page-list">
+
+                        <a
+                            href="https://goc.searchonic.online/revenue-cloud-for-manufacturing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            https://goc.searchonic.online/revenue-cloud-for-manufacturing
+                        </a>
+
+                    </div>
+
+                
+
+
+                        <div class="section-label fix-label">
+
+                            How to Fix
+
+                        </div>
+
+
+                        <div class="fix">
+
+                            Structure page headings in sequential order from main headings down to subheadings.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <div class="footer">
+
+        Website Audit Agent
+
+    </div>
+
+
+</div>
+
+
+</body>
+
+</html>
+
