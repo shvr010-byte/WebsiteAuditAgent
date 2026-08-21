@@ -1,0 +1,13 @@
+# Environment
+.env
+.env.*
+
+# Generated audit files
+audit-backups/
+reports/
+
+# Generated screenshots
+screenshots/*
+
+# Test results
+test-results/
