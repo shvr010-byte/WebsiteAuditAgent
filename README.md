@@ -193,18 +193,7 @@ The AI evaluates visible UI/UX characteristics such as:
 
 ### Example issue
 
-```json
-{
-  "id": "UI-001",
-  "severity": "High",
-  "issue": "Primary CTA has low visual prominence.",
-  "recommendation": "Increase contrast and visual emphasis.",
-  "target": {
-    "tag": "button",
-    "text": "Get Started",
-    "selectorHint": ".hero button"
-  }
-}
+
 
 🎯 UI/UX Issue Screenshots
 When an AI UI/UX issue contains a target element, the system attempts to:
