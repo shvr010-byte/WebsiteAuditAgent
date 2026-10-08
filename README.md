@@ -374,8 +374,11 @@ It focuses on:
 - Business impact
 - Priorities
 - Recommended actions
+  
 🏗️ Architecture
+
 High-level architecture:
+ 
                     ┌───────────────────┐
                     │   User / Client   │
                     └─────────┬─────────┘
