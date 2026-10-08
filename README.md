@@ -463,10 +463,12 @@ Development
 - Git
 - GitHub
   
-📁 Project Structure
+📁 Project Structure:
+
 
 WebsiteAuditAgent/
-│
+|
+|
 ├── controllers/
 │   └── auditControllerV2.js
 │
