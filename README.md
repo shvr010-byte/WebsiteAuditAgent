@@ -237,7 +237,9 @@ Correct:
 This prevents technical failures from artificially lowering the website score.
 🔍 Link Verification
 The link checker uses a two-level verification strategy.
+
 HTTP Request
+
      |
      ├── Clearly working
      |       ↓
@@ -460,7 +462,9 @@ Development
 - npm
 - Git
 - GitHub
+  
 📁 Project Structure
+
 WebsiteAuditAgent/
 │
 ├── controllers/
